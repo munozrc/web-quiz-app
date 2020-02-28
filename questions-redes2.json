@@ -1,0 +1,12 @@
+[
+    {
+        "question": "Sirve para interconectar redes de ordenadores.",
+        "options": ["Router", "Switch", "Servidor", "Hub o concentrador", "Ninguna es correcta"],
+        "answer": 0
+    },
+    {
+        "question": "Su función es proteger los equipos individuales, servidores o equipos conectados en red contra accesos no deseados de intrusos que nos pueden robar datos confidenciales, hacer perder información valiosa o incluso denegar servicios en nuestra red",
+        "options": ["Proxy","Router","Firewall","Switch","Ninguna es correcta"],
+        "answer": 2
+    }
+]
