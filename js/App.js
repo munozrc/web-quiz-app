@@ -33,8 +33,8 @@ function loadQuestions(num){
       xmlhttp.open("GET", "questions-redes2.json", true);
       break;
     case 2:
-      document.getElementById("title-page").innerText = "Redes de computadores II";
-      xmlhttp.open("GET", "questions-redes2.json", true);
+      document.getElementById("title-page").innerText = "Seminario de programación II";
+      xmlhttp.open("GET", "questions-semiprog2.json", true);
       break;
   }
 
@@ -121,7 +121,6 @@ function showResult(){
   document.getElementById("background").className = "normal";
   document.getElementById("show-score").classList.remove("d-none");
   document.getElementById("score").innerText = score + " / " + (num_question - 1);
-  console.log(score);
 }
 
 document.addEventListener("DOMContentLoaded", load, false);
