@@ -6,10 +6,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Quiz App</title>
 </head>
-<body>
+<body id="background">
     
     <nav class="navbar navbar-dark bg-primary">
         <div class="container">
@@ -22,14 +23,14 @@
     </nav>
 
     <div class="" id="selector-class">
-        <div class="row justify-content-center align-items-center p-4">
-            <div class="col-6 p-4">
+        <div class="row justify-content-center p-4">
+            <div class="col-sm-12 col-md-8 col-lg-4">
                 <div class="card text-center border-secondary">
                     <div class="card-header">
                         <h3>Seleccione la asignatura</h3>
                     </div>
                     <div class="card-body">
-                        <div class="container">
+                        <div class="container p-4">
                             <button id="redes2-btn" class="btn btn-primary btn-block">Redes de computadores II</button>
                             <button id="semiprog2-btn" class="btn btn-primary btn-block">Seminario de programación II</button>
                         </div>
@@ -41,19 +42,22 @@
 
 
     <div class="container d-none" id="selector-question">
-        <div class="row justify-content-center align-items-center p-4">
-            <div class="col-6 p-4">
-                <div class="card text-center border-secondary">
+        <div class="row justify-content-center p-4">
+            <div class="col-sm-12 col-md-9 col-lg-6">
+                <div class="card text-center border-secondary" id="card-element">
                     <div class="card-header">
-                        <h3 id="question"></h3>
+                        <h3 id="num-question">Pregunta #1</h3>
                     </div>
                     <div class="card-body">
-                        <div class="container">
-                            <button id="a-btn" class="btn-outline-primary btn-block"></button>
-                            <button id="b-btn" class="btn-outline-primary btn-block"></button>
-                            <button id="c-btn" class="btn-outline-primary btn-block"></button>
-                            <button id="d-btn" class="btn-outline-primary btn-block"></button>
-                            <button id="e-btn" class="btn-outline-primary btn-block"></button>
+                        <div class="card-text text-justify p-2" id="question">
+                        </div>
+                        <div class="container p-4">
+                            <button id="a-btn" class="btn btn-outline-primary btn-block"></button>
+                            <button id="b-btn" class="btn btn-outline-primary btn-block"></button>
+                            <button id="c-btn" class="btn btn-outline-primary btn-block"></button>
+                            <button id="d-btn" class="btn btn-outline-primary btn-block"></button>
+                            <button id="e-btn" class="btn btn-outline-primary btn-block"></button>
+                            <button id="next-btn" class="btn btn-primary btn-block d-none">Siguiente</button>
                         </div>
                     </div>
                 </div>
@@ -61,6 +65,15 @@
         </div>
     </div>
 
+    <div class="container d-none" id="show-score">
+        <div class="row"> 
+            <div class="col d-flex flex-column align-items-center mt-5">
+                <h1 class="d-block text-center">Resultado: </h1>
+                <h3 id="score"></h3>
+                <button type="button" onclick="location.reload()" class="btn btn-primary mt-4">Volver al inicio</button>
+            </div>
+        </div>
+    </div>
     <script src="js/App.js"></script>
     <!-- Bootstrap SCRIPTS-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

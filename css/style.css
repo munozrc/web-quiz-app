@@ -1,0 +1,15 @@
+body {
+    transition: linear all 0.5s;
+}
+
+.correct {
+    background-color: #64FC22;
+}
+
+.wrong {
+    background-color: #FC2225;
+}
+
+.normal {
+    background-color: #fff;
+}
