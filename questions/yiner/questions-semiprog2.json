@@ -1,0 +1,182 @@
+[
+    {
+        "question": "Es una mejora en cuanto a conectividad cableada de la Raspberry Pi modelo 4:",
+        "options":
+        [
+            "A. Un puerto de fibra óptica",
+            "B. Un puerto ethernet",
+            "C. Un puerto de consola",
+            "D. Un puerto de Gigabit Ethernet",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Es el máximo de RAM de la Raspberry Pi modelo 4:",
+        "options":
+        [
+            "A. 512KB",
+            "B. 4096 KB",
+            "C. 1GB",
+            "D. 2GB",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "No es una mejora de la Raspberry Pi modelo 4 con respecto a sus antecesores:",
+        "options":
+        [
+            "A. Puertos USB 3.0",
+            "B. Puerto de Gigabit Ethernet",
+            "C. Memoria RAM expandible",
+            "D. Conectividad Bluetooth 5.0",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En el modelo 4 de Raspberry Pi puede soportar hasta dos pantallas a resolución 4k, gracias a que posee 2 puertos de tipo:",
+        "options":
+        [
+            "A. HDMI",
+            "B. VGA",
+            "C. MICRO-SD",
+            "D. USB TIPO C",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "No es un ejemplo en donde se pueda hacer uso de una placa Raspberry Pi en general:",
+        "options":
+        [
+            "A. Smart home hub",
+            "B. VPN server",
+            "C. Home computer",
+            "D. Game console",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Modo de uso de la Raspberry Pi, en el cual no se hace uso de periféricos o monitor, ya que se hace remotamente desde otro equipo:",
+        "options":
+        [
+            "A. Modo Workstation",
+            "B. Modo flash",
+            "C. Modo Root",
+            "D. Modo Headless",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Que permite el comando “sudo apt-get update” al ser ejecutado dentro de la terminal de Raspberry Pi:",
+        "options":
+        [
+            "A. Apagar el sistema",
+            "B. Reiniciar el sistema",
+            "C. Actualizar listas de software",
+            "D. Actualizar el kernel",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Comando dentro de la terminal de Raspberry Pi que permite la eliminación definitiva de un archivo:",
+        "options":
+        [
+            "A. cd + nombre del archivo",
+            "B. mkdir + nombre del archivo",
+            "C. touch + nombre del archivo",
+            "D. rm + nombre del archivo",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Protocolo que se debe activar en la Raspberry Pi para poder realizar la conexión en una arquitectura cliente/servidor haciendo uso de una conexión a un host remotamente:",
+        "options":
+        [
+            "A. SSH",
+            "B. FTP",
+            "C. SMTP",
+            "D. TCP",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Este modo de operación de la Raspberry Pi permite la visualización de la interfaz gráfica de manera remota:",
+        "options":
+        [
+            "A. VIEWER",
+            "B. NVC",
+            "C. VNC",
+            "D. SMTP V",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Cual modelo de Raspberry Pi no posee un puerto Ethernet estándar para la conexión a Internet:",
+        "options":
+        [
+            "A. Raspberry Pi Zero",
+            "B. Raspberry Pi 2",
+            "C. Raspberry Pi Wz",
+            "D. Raspberry Pi 3",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Es un puerto que posee el modelo 4 de Raspberry Pi:",
+        "options":
+        [
+            "A. Micro-HDMI",
+            "B. Fast Ethernet",
+            "C. Audio port",
+            "D. GPIO",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Es un modo de numeración de los pines (GPIO) de la Raspberry Pi, que relaciona la numeración con un código en específico que puede variar entre modelos:",
+        "options":
+        [
+            "A. BOARD",
+            "B. BCM",
+            "C. BBC",
+            "D. OTG",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Paquete que permite a través del lenguaje Python 3 hacer uso y control de los pines del Raspberry Pi:",
+        "options":
+        [
+            "A. pip3",
+            "B. gpio",
+            "C. rpi.gpio",
+            "D. sudo.py",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Dentro de la consola de python3 cuando digitamos el código: GPIO.setmode(), nos permite establecer:",
+        "options":
+        [
+            "A. El modo de numeración de los pines",
+            "B. El modo de ejecución de la Raspberry Pi",
+            "C. El modo de numeración de los puertos",
+            "D. El modo de iluminación de los leds",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    }
+]

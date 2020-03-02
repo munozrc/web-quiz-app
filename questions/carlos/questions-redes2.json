@@ -1,0 +1,350 @@
+[
+    {
+        "question": "Compartir recursos hardware y/o software en un entorno reducido. Se define como una red…",
+        "options":
+        [
+            "A. Red WAN",
+            "B. Red MAN",
+            "C. Internet",
+            "D. Red LAN",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Uno de los dos paradigmas en la construcción de una red local es:",
+        "options":
+        [
+            "A. cliente / servidor",
+            "B. estrella",
+            "C. broadcast",
+            "D. desilusión",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Cableado que puede ser una opción para red pequeña y sin previsiones de crecimiento importantes.",
+        "options":
+        [
+            "A. Fibra Óptica",
+            "B. Par Trenzado",
+            "C. UTP",
+            "D. Coaxial",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Dispositivo de red con mejores prestaciones que un Hub o concentrador porque reduce el dominio de colisiones.",
+        "options":
+        [
+            "A. Switch",
+            "B. Router",
+            "C. Encaminador",
+            "D. Enrutador",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Cuantos tipos de trama puede haber en las redes Ethernet?",
+        "options":
+        [
+            "A. 4",
+            "B. 3",
+            "C. 2",
+            "D. No hay tramas en estas redes",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Capa donde se ocupa de la obtención de paquetes procedentes de la fuente y de encaminarnos durante todo el camino hasta llegar a su destino.",
+        "options":
+        [
+            "A. Capa de aplicación",
+            "B. Capa de transporte",
+            "C. Capa de red",
+            "D. Capa física",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Se encuentra en la capa 1. Se limita a copiar los bits individualmente entre segmentos de cable. Solo amplifican señales eléctricas",
+        "options":
+        [
+            "A. Router",
+            "B. Switch",
+            "C. Bridges",
+            "D. Repetidores",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Algoritmos que intentan cambiar sus decisiones de encaminamiento para reflejar los cambios de topología y tráfico actuales.",
+        "options":
+        [
+            "A. Algoritmo adaptativos",
+            "B. Algoritmo no adaptativos",
+            "C. no existe un algoritmo que cumpla la descripción anterior",
+            "D. Algoritmo múltiples",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Las decisiones de encaminamiento son tomadas por los IMP basándose únicamente en la información que ellos mismo hayan reunido.",
+        "options":
+        [
+            "A. Encaminamiento aislado",
+            "B. Multiplexación",
+            "C. Encaminamiento centralizado",
+            "D. Encaminamiento distribuido",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Sirve  para configurar parámetros de los “hosts” en forma dinámica a través de la red.",
+        "options":
+        [
+            "A. Servicio DHCP",
+            "B. Servicio MQTT",
+            "C. Servicio broadcast",
+            "D. LAN",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Es el protocolo define la unidad básica de transmisión de datos, y el formato exacto de todos los datos cuando viajan por una red...",
+        "options":
+        [
+            "A. Protocolo de red",
+            "B. Protocolo IP",
+            "C. Protocolo LAN",
+            "D. Protocolo Enrutamiento",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Mayor flexibilidad en el direccionamiento, es una ventaja del protocolo IP…",
+        "options":
+        [
+            "A. IPv4",
+            "B. IPv6",
+            "C. IPv2",
+            "D. TCP",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1 
+    },
+    {
+        "question": "Este protocolo permite a varios programas de aplicación en una misma máquina comunicarse simultáneamente y demultiplexa el tráfico que se recibe entre las distintas aplicaciones.",
+        "options":
+        [
+            "A. TCP/IP",
+            "B. TCP",
+            "C. IP",
+            "D. UDP",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Es la unidad de transferencia de este protocolo. Los segmentos se intercambian para establecer y liberar conexiones…",
+        "options":
+        [
+            "A. Segmento IP",
+            "B. Segmento UDP",
+            "B. Segmento UDP",
+            "D. Segmento DHCP",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "No es una característica de los esquemas “peer to peer”: ",
+        "options":
+        [
+            "A. Cada PC comparte sus recursos individualmente",
+            "B. Se usa en redes masificadas por su buen desempeño ",
+            "C. Puede coexistir con otros esquemas de red",
+            "D. El desempeño depende un limitado número de usuarios ",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Aumento del porcentaje de la posibilidad de colisiones de paquetes y disminución de la calidad del servicio en red, son desventajas de un hub cuando: ",
+        "options":
+        [
+            "A. Hay muchos puertos disponibles",
+            "B. Hay poco cable de conexión",
+            "C. Hay muchos usuarios conectados",
+            "D. Hay muchas señales en el entorno",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Dispositivo en el cual el ancho de banda efectivo es proporcional de acuerdo a número de bocas para conectar dispositivos, consiguiendo un efecto mayor que un repetidor: ",
+        "options":
+        [
+            "A. El hub ",
+            "B. El switch",
+            "C. El router",
+            "D. El conmutador",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "No es un modo de actuar de un conmutador: ",
+        "options":
+        [
+            "A. Reenvío de tramas broadcast individualmente  ",
+            "B. Reenvío selectivo de mensajes multicast ",
+            "C. Soportando redes VLAN",
+            "D. Reenvío selectivo de tramas en función del tipo",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Como ayuda el Backbone a solucionar el cuello de botella que se genera cuando un gran número de usuarios demandan servicios del mismo servidor: ",
+        "options":
+        [
+            "A. Genera un mayor número de puertos ocupados",
+            "B. Brinda un mayor acceso de ancho de banda ",
+            "C. Genera una mejor latencia de la señal",
+            "D. Tiene una mejor estructura ",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Conocer la topología de subred y seleccionar las trayectorias apropiadas dentro de esta misma, evitando sobrecargas y problemas, son aspectos que debe tener en cuenta: ",
+        "options":
+        [
+            "A. La capa de transporte ",
+            "B. Las capas del modelo OSI",
+            "C. La capa física ",
+            "D. La capa de red",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Es el modo de operación de la capa de red donde cada nodo intermedio recibe mensajes en forma de paquetes de datos y los almacena hasta que se los reenvía hacia su destino final o a otro nodo intermedio. ",
+        "options":
+        [
+            "A. Conmutación de paquetes",
+            "B. Conmutación de circuitos",
+            "C. Conmutación y envío ",
+            "D. Conmutación en red",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Parte del software de la capa de red, responsable de decidir sobre qué línea de salida se deberá transmitir un paquete que llega. ",
+        "options":
+        [
+            "A. El transporte de paquetes",
+            "B. El encaminamiento de paquetes ",
+            "C. El algoritmo de encaminamiento ",
+            "D. Los IMP de la subred",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Si el servicio es fiable, se hace responsable del establecimiento, control y liberación de las conexiones de transporte para los usuarios del servicio. ",
+        "options":
+        [
+            "A. El direccionamiento ",
+            "B. La capa de transporte",
+            "C. El algoritmo de encaminamiento",
+            "D. La capa de red",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "No es una especificación que el usuario de destino debe tener al momento de realizar el direccionamiento: ",
+        "options":
+        [
+            "A. Identificación de la estación",
+            "B. Identificación de la entidad de transporte ",
+            "C. Identificación del usuario ",
+            "D. Identificación del algoritmo",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Cuatro enteros decimales separados por puntos, donde cada entero da el valor de un octeto de la dirección, esto representa: ",
+        "options":
+        [
+            "A. Las direcciones MAC",
+            "B. Las direcciones IP",
+            "C. Las direcciones RFC",
+            "D. Las direcciones de routing",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Protocolo que se basa en la idea de que los datos se transmiten con un mecanismo no fiable y sin conexión: ",
+        "options":
+        [
+            "A. Los servidores DNS",
+            "B. El protocolo ARP",
+            "C. El protocolo TCP",
+            "D. El protocolo IP",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Es un protocolo en donde se incluye un campo de prioridad, que clasifica el tráfico en función de sus necesidades especiales, lo anterior define una ventaja de: ",
+        "options":
+        [
+            "A. El protocolo IPv6",
+            "B. El protocolo IPv4",
+            "C. El protocolo TCP/IP ",
+            "D. El protocolo ICMP ",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Permite una transmisión fiable de datos mediante el establecimiento y liberación de conexiones, de manera que los datos que lleguen a los programas de aplicación lo hagan sin errores y ordenados: ",
+        "options":
+        [
+            "A. El protocolo UDP ",
+            "B. El protocolo de recuperación de errores",
+            "C. El protocolo de detección de errores",
+            "D. El protocolo TCP",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Protocolo que incluye un mecanismo que permite al cliente y servidor negociar opciones y proporciona una serie de opciones estándar.",
+        "options":
+        [
+            "A. El protocolo FTP",
+            "B. El protocolo TCP/IP",
+            "C. El protocolo HTTP",
+            "D. El protocolo SMTP",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 4
+    }
+]
