@@ -84,6 +84,18 @@
         "answer": 3
     },
     {
+        "question": "¿Qué sucede con un paquete que llega al IMP y no existe un lugar disponible?",
+        "options":
+        [
+            "A. es descartado",
+            "B. es guardado en cola",
+            "C. es direccionado",
+            "D. es regresado",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
         "question": "Algoritmos que intentan cambiar sus decisiones de encaminamiento para reflejar los cambios de topología y tráfico actuales.",
         "options":
         [
