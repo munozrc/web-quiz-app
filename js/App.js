@@ -4,6 +4,7 @@ let questions;
 let current_question;
 let btn_correct;
 let btn_wrong;
+let validar = true;
 
 function load(){
   document.getElementById("redes2-btn").addEventListener("click", function(){loadQuestions(1)});
@@ -14,7 +15,7 @@ function load(){
   document.getElementById("c-btn").addEventListener("click", function(){checkAnswer(2,document.getElementById("c-btn"))});
   document.getElementById("d-btn").addEventListener("click", function(){checkAnswer(3,document.getElementById("d-btn"))});
   document.getElementById("e-btn").addEventListener("click", function(){checkAnswer(4,document.getElementById("e-btn"))});
-  document.getElementById("next-btn").addEventListener("click", function(){createQuestions()});
+  document.getElementById("next-btn").addEventListener("click", function(){createQuestions(); validar = true;});
 }
 
 function loadQuestions(num){
@@ -30,11 +31,11 @@ function loadQuestions(num){
   switch(num){
     case 1:
       document.getElementById("title-page").innerText = "Redes de computadores II";
-      xmlhttp.open("GET", "questions-redes2.json", true);
+      xmlhttp.open("GET", "questions/carlos/questions-redes2.json", true);
       break;
     case 2:
       document.getElementById("title-page").innerText = "Seminario de programación II";
-      xmlhttp.open("GET", "questions-semiprog2.json", true);
+      xmlhttp.open("GET", "questions/carlos/questions-semiprog2.json", true);
       break;
   }
 
@@ -81,39 +82,43 @@ function checkAnswer(option, btn){
 
   document.getElementById("next-btn").classList.remove("d-none");
 
-  if (current_question.answer == option){
-    document.getElementById("background").className = "correct";
-    btn.classList.remove("btn-outline-primary");
-    btn.className += " btn-success";
-    btn_correct = btn;
-    score++;
-  } else {
-    document.getElementById("background").className = "wrong";
-    btn.classList.remove("btn-outline-primary");
-    btn.className += " btn-danger";
-    btn_wrong = btn;
-
-    switch(current_question.answer){
-      case 0:
-        btn_correct = document.getElementById("a-btn");
-        break;
-      case 1:
-        btn_correct = document.getElementById("b-btn");
-        break;
-      case 2:
-        btn_correct = document.getElementById("c-btn");
-        break;
-      case 3:
-        btn_correct = document.getElementById("d-btn");
-        break;
-      case 4:
-        btn_correct = document.getElementById("e-btn");
-        break;
+  if (validar){
+    if (current_question.answer == option){
+      document.getElementById("background").className = "correct";
+      btn.classList.remove("btn-outline-primary");
+      btn.className += " btn-success";
+      btn_correct = btn;
+      score++;
+    } else {
+      document.getElementById("background").className = "wrong";
+      btn.classList.remove("btn-outline-primary");
+      btn.className += " btn-danger";
+      btn_wrong = btn;
+  
+      switch(current_question.answer){
+        case 0:
+          btn_correct = document.getElementById("a-btn");
+          break;
+        case 1:
+          btn_correct = document.getElementById("b-btn");
+          break;
+        case 2:
+          btn_correct = document.getElementById("c-btn");
+          break;
+        case 3:
+          btn_correct = document.getElementById("d-btn");
+          break;
+        case 4:
+          btn_correct = document.getElementById("e-btn");
+          break;
+      }
+  
+      btn_correct.classList.remove("btn-outline-primary");
+      btn_correct.className += " btn-success";
     }
-
-    btn_correct.classList.remove("btn-outline-primary");
-    btn_correct.className += " btn-success";
+    validar = false;
   }
+  console.log("score = " + score);
 }
 
 function showResult(){
