@@ -165,7 +165,7 @@
             "D. El protocolo TCP",
             "E. Ninguna es correcta"
         ],
-        "answer": 0
+        "answer": 3
     },
     {
         "question": "Protocolo que incluye un mecanismo que permite al cliente y servidor negociar opciones y proporciona una serie de opciones estándar.",
