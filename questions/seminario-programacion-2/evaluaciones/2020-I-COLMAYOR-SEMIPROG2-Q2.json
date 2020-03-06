@@ -1,0 +1,602 @@
+[
+    {
+        "question": "Actualmente existe una alternativa a Arduino y Raspberry Pi llamada Tessel. ¿Sobre qué lenguaje se trabaja en esta placa?",
+        "options":
+        [
+            "A. JavaScript",
+            "B. C#",
+            "C. PL1",
+            "D. Ruby",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Hace referencia a la manera de poder ver los esquemas electrónicos y alterarlos.",
+        "options":
+        [
+            "A. Open Hardware",
+            "B. Open Software",
+            "C. Open source",
+            "D. GNU",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Módulo de Node.js para levantar un servidor web",
+        "options":
+        [
+            "A. Javascript",
+            "B. Express",
+            "C. React.js",
+            "D. Json",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Cual es el lenguaje utilizado para programar en Arduino",
+        "options":
+        [
+            "A. Processing",
+            "B. Java",
+            "C. C",
+            "D. Python",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "En que lenguaje está basado el lenguaje de programación de Arduino",
+        "options":
+        [
+            "A. Python",
+            "B. C#",
+            "C. Java",
+            "D. C++",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Liberia para comunicar Raspberry Pi con una shield de arduino",
+        "options":
+        [
+            "A. iostream",
+            "B. arduPi",
+            "C. LibraryPi Arduino",
+            "D. iosfwd",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "La raspberry Pi 3, posee una CPU…",
+        "options":
+        [
+            "A. x86 de 2 cores",
+            "B. ARM de 4 cores",
+            "C. ARM y x86",
+            "D. x86 de 4 cores",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "La instalación del SO se realiza mediante…",
+        "options":
+        [
+            "A. Tarjeta micro SD",
+            "B. USB",
+            "C. Bluetooth",
+            "D. CD-ROM",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "El entorno de desarrollo integrado utilizado para el proyecto “Termómetro básico”",
+        "options":
+        [
+            "A. Visual Studio Code",
+            "B. Atom",
+            "C. Geany",
+            "D. NetBeans",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Un Thermistor es de tipo",
+        "options":
+        [
+            "A. Diodo",
+            "B. Transistor cerámico",
+            "C. Transistor electrolítico",
+            "D. Resistencia",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Posee como propiedad variar el valor de resistencia mediante el cambio de temperatura…",
+        "options":
+        [
+            "A. Thermistor",
+            "B. Resistencia de 10 ohms",
+            "C. Transistor electrolítico",
+            "D. Transistor cerámico",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Para poder consultar la versión que poseemos de nuestra Raspberry lo hacemos con el siguiente comando.",
+        "options":
+        [
+            "A. apt-get update",
+            "B. apt-get upgrade",
+            "C. raspi-config",
+            "D. cat /proc/cpuinfo",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Para que nuestra Raspberry se conecte con el Arduino es necesario instalar.",
+        "options":
+        [
+            "A. Raspbian",
+            "B. Kali Linux",
+            "C. ArduPi",
+            "D. JavaScript",
+            "E. Windows"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Si queremos instalar “Arduino IDE” es necesario ejecutar los siguientes comandos.",
+        "options":
+        [
+            "A. sudo apt-get update luego apt-get install arduino",
+            "B. sudo apt-get install luego apt-get upgrade arduino",
+            "C. sudo apt-get update luego raspi-config arduino",
+            "D. cat/proc/cpuinfo",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "En nuestro sistema operativo Raspbian existe una aplicación llamada Leafpad. Esta sirve para lo siguiente.",
+        "options":
+        [
+            "A. Editor de imágenes como Paint en windows",
+            "B. Navegador de internet de nuestra Raspberry",
+            "C. Reproductor de música minimalista ",
+            "D. Editor de texto como Word",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En la Raspberry Pi 3 existe un puerto que nos permite conectar cosas como Led, motores, etc el cual es llamado como:",
+        "options":
+        [
+            "A. USB",
+            "B. HDMI",
+            "C. Jack 3.5 ",
+            "D. GPIO",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Que procesador tiene la Raspberry Pi model 3B?.",
+        "options":
+        [
+            "A. Intel Core I3",
+            "B. Ryzen 5 2400g",
+            "C. ARMv8 1.2",
+            "D. Kirin 930",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Para hacer el proyecto del termómetro es indispensable tener estos 2 componentes.",
+        "options":
+        [
+            "A. Thermistor & 10K ohm Resistor",
+            "B. 28.5K ohm Resistor & Led",
+            "C. Cable, led, resistencia ",
+            "D. Thermistor 10 & Thermistor 28.5 ohm",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Si combinamos Geany IDE con Makefile tenemos los siguientes beneficios",
+        "options":
+        [
+            "A. Se crean líneas de código iniciales que nos dan una pista a la hora de hacer nuestra app",
+            "B. Ahorra recursos del hardware y acelera todos los procesos ejecutados en la raspberry",
+            "C. Enciende mas rápido nuestra Raspberry",
+            "D. Guardar archivos sin renombrar y compila apps con un solo clic",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Para empezar a construir nuestro proyecto del termómetro es importante añadir las siguientes librerías.",
+        "options":
+        [
+            "A. Wolfcrypt",
+            "B. SWIG",
+            "C. ArduPi",
+            "D. Math",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Es el máximo de RAM de la Raspberry Pi modelo 4:",
+        "options":
+        [
+            "A. 512KB",
+            "B. 4GB",
+            "C. 1GB",
+            "D. 2GB",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "No es una mejora de la Raspberry Pi modelo 4 con respecto a sus antecesores:",
+        "options":
+        [
+            "A. Puertos USB 3.0",
+            "B. Puerto de Gigabit Ethernet",
+            "C. Memoria RAM expandible",
+            "D. Conectividad Bluetooth 5.0",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En el modelo 4 de Raspberry Pi puede soportar hasta dos pantallas a resolución 4k, gracias a que posee puertos de tipo:",
+        "options":
+        [
+            "A. HDMI",
+            "B. VGA",
+            "C. MICRO-SD",
+            "D. USB TIPO C",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "No es un ejemplo en donde se pueda hacer uso de una placa Raspberry Pi en general:",
+        "options":
+        [
+            "A. Smart home hub",
+            "B. VPN server",
+            "C. Home computer",
+            "D. Game console",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Modo de uso de la Raspberry Pi, en el cual no se hace uso de periféricos o monitor, ya que se hace remotamente desde otro equipo:",
+        "options":
+        [
+            "A. Modo Workstation",
+            "B. Modo flash",
+            "C. Modo Root",
+            "D. Modo Headless",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Que permite el comando “sudo apt-get update” al ser ejecutado dentro de la terminal de Raspberry Pi:",
+        "options":
+        [
+            "A. Apagar el sistema",
+            "B. Reiniciar el sistema",
+            "C. Actualizar listas de software",
+            "D. Actualizar el kernel",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Comando dentro de la terminal de Raspberry Pi que permite la eliminación definitiva de un archivo. “Nota: El operador + no hace parte del comando”:",
+        "options":
+        [
+            "A. cd + nombre del archivo",
+            "B. mkdir + nombre del archivo",
+            "C. touch + nombre del archivo",
+            "D. rm + nombre del archivo",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Protocolo que se debe activar en la Raspberry Pi para poder realizar la conexión en una arquitectura cliente/servidor haciendo uso de una conexión a un host remotamente:",
+        "options":
+        [
+            "A. SSH",
+            "B. FTP",
+            "C. SMTP",
+            "D. TCP",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Este modo de operación de la Raspberry Pi permite la visualización de la interfaz gráfica de manera remota:",
+        "options":
+        [
+            "A. VIEWER",
+            "B. NVC",
+            "C. VNC",
+            "D. SMTP V",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Cual modelo de Raspberry Pi no posee un puerto Ethernet estándar para la conexión a Internet:",
+        "options":
+        [
+            "A. Raspberry Pi Zero",
+            "B. Raspberry Pi 2",
+            "C. Raspberry Pi Wz",
+            "D. Raspberry Pi 3",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Es un puerto que posee el modelo 4 de Raspberry Pi:",
+        "options":
+        [
+            "A. Micro-HDMI",
+            "B. Fast Ethernet",
+            "C. Audio port",
+            "D. GPIO",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Es un modo de numeración de los pines (GPIO) de la Raspberry Pi, que relaciona la numeración con un código en específico que puede variar entre modelos:",
+        "options":
+        [
+            "A. BOARD",
+            "B. BCM",
+            "C. BBC",
+            "D. OTG",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Paquete que permite a través del lenguaje Python 3 hacer uso y control de los pines del Raspberry Pi:",
+        "options":
+        [
+            "A. pip3",
+            "B. gpio",
+            "C. rpi.gpio",
+            "D. sudo.py",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Dentro de la consola de python3 cuando digitamos el código: GPIO.setmode(), nos permite establecer:",
+        "options":
+        [
+            "A. El modo de numeración de los pines",
+            "B. El modo de ejecución de la Raspberry Pi",
+            "C. El modo de numeración de los puertos",
+            "D. El modo de iluminación de los leds",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Es una mejora en cuanto a conectividad cableada de la Raspberry Pi modelo 4:",
+        "options":
+        [
+            "A. Un puerto de fibra óptica",
+            "B. Un puerto ethernet",
+            "C. Un puerto de consola",
+            "D. Un puerto de Gigabit Ethernet",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿las recomendaciones cuando tememos que soldar en los pines algún dispositivo en  la raspberry es:?",
+        "options":
+        [
+            "A. Limpiar bien los pines ",
+            "B. Tener encendido la raspberry ",
+            "C. Que no le de la luz del sol",
+            "D. Tener apagado la raspberry",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál de las siguientes es una característica principal de la raspberry pi 4?",
+        "options":
+        [
+            "A. Silencioso y bajo consumo energético  ",
+            "B. Precio elevado ",
+            "C. Fácil de con seguir ",
+            "D. No trae virus  ",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿un nuevo componente en las ranuras USB  de la raspberry pi 4 son ?",
+        "options":
+        [
+            "A. USB fast ethernet",
+            "B. 2 puertos USB 3.0",
+            "C. 2 puertos USB 1.0",
+            "D. 2 puertos USB mini",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿la tecnología del bluetooth de la raspberry pi 4 es ?",
+        "options":
+        [
+            "A. 1.0",
+            "B. 5.2",
+            "C. 5.2.3",
+            "D. 5.0",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿el chip principal de las raspberry pi tiene 2 componentes integrados estos son ?",
+        "options":
+        [
+            "A. CPU y RAM",
+            "B. RAM y BIOS",
+            "C. CPU y VRAM",
+            "D. Unidad de almacenamiento y CPU",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es la versión recomendada de raspbian para usar una raspberry como servidor?",
+        "options":
+        [
+            "A. Raspbian stretch lite ",
+            "B. Raspbian stretch with desktop",
+            "C. Raspbian stretch recomended software",
+            "D. Raspbian xp",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuál es el nombre de usuario que rasbian pone por defecto cuando se instala el sistema operativo en una raspberry ?",
+        "options":
+        [
+            "A. PI",
+            "B. Desktop",
+            "C. User",
+            "D. Raspbian user",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Cuándo se desea instalar un programa que requiere permisos y privilegios especiales por medio del terminal en raspbian cual comando se usa?",
+        "options":
+        [
+            "A. sudo ",
+            "B. clear ",
+            "C. cd ..",
+            "D. update",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿para usar una raspberry pi como una computadora de escritorio de que capacidad se recomienda la ram  ?",
+        "options":
+        [
+            "A. 1 GB ",
+            "B. 1MB",
+            "C. 2GB ",
+            "D. 10 GB",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿la capacidad mínima recomendada de la sd para instalar rasbian para usarcé en una raspberry pi es?",
+        "options":
+        [
+            "A. 8 GB",
+            "B. 1 GB",
+            "C. 4 GB",
+            "D. 2 GB",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿PIP3 es un programa de Python este se usa para ?",
+        "options":
+        [
+            "A. Instalar paquetes en python  ",
+            "B. Guardar información en python",
+            "C. Eliminar virus de python",
+            "D. Instalar python",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Sentencia para establecer un pin como salida",
+        "options":
+        [
+            "A. GPIO.output()",
+            "B. GPIO.output(7, HIGHT)",
+            "C. GPIO.setup(pin, OUT)",
+            "D. GPIO.OUT",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Amperaje recomendado para la Raspberry Pi 4",
+        "options":
+        [
+            "A. 2.0 A",
+            "B. 2.1 A",
+            "C. 3.0 A",
+            "D. 1.0 A",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Existen modelos de Raspberry Pi 4 de diferente capacidad de memoria RAM?",
+        "options":
+        [
+            "A. solo de 4GB",
+            "B. solo de 512MB",
+            "C. 1GB, 2GB y 4GB",
+            "D. 2GB y 4G",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Posee como propiedad variar el valor de resistencia mediante el cambio de temperatura…",
+        "options":
+        [
+            "A. Thermistor",
+            "B. Resistencia de 10 ohms",
+            "C. Transistor electrolítico",
+            "D. Transistor cerámico",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    }
+]

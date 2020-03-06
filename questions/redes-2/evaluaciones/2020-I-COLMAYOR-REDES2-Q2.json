@@ -1,0 +1,14 @@
+[
+    {
+        "question": "Pregunta",
+        "options":
+        [
+            "repuesta",
+            "repuesta",
+            "repuesta",
+            "repuesta",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    }
+]
