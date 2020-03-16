@@ -34,12 +34,13 @@ body {
 header {
     display: flex;
     width: 100%;
-    justify-content: start;
+    justify-content: space-between;
     padding: 10px 12%;
     background-color: var(--primary-color);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
 }
 
-header a {
+#logo {
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -48,9 +49,26 @@ header a {
     font-weight: 700;
 }
 
-header a h6 {
+#logo h6 {
     padding-bottom: 10px;
     font-size: 1rem;
+}
+
+#btn-add {
+    width: 4%;
+    background-color: transparent;
+    border: none;
+}
+
+#btn-add img {
+    width: 100%;
+    border-radius: 50%;
+    transition: all 0.2s linear 0s;
+    filter: hue-rotate(120deg);
+}
+
+#btn-add img:hover {
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* FIN DEL ENCABEZADO*/
@@ -70,6 +88,7 @@ header a h6 {
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .card-header {
@@ -87,6 +106,12 @@ header a h6 {
     padding-bottom: 20px;
 }
 
+.question {
+    padding: 10px;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
 .btn {
     padding: 10px;
     width: 80%;
@@ -99,7 +124,7 @@ header a h6 {
     text-align: center;
     color: var(--second-color);
     cursor: pointer;
-    transition: all 0.2s linear 0s;
+    transition: all 0.1s linear 0s;
 }
 
 .btn:hover {
@@ -108,11 +133,31 @@ header a h6 {
     color: var(--primary-color);
 }
 
+.btn-answer {
+    background-color: var(--second-color);
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-answer:hover {
+    background-color: var(--primary-color);
+    border: 2px solid var(--second-color);
+    color: var(--second-color);
+}
+
+.text-left {
+    text-align: left !important;
+    padding-left: 20px;
+}
 
 @media (max-width: 720px){
 
     header {
         padding: 10px 10%;
+    }
+
+    #btn-add {
+        width: 12%;
     }
     
     .card {
