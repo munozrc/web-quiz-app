@@ -4,27 +4,36 @@ const UI = new Card();
 
 window.onload = function (){
 
-    let buttons = [
+    // CARGAR BOTONES DE SELECCION DE ASIGNATURA
+    UI.setCardSelector([
         {id: 'btn-redes', text:'Redes de computadores II'},
         {id: 'btn-semiprog', text:'Seminario de programacion II'}
-    ];
+    ]);
 
-    UI.setCardSelector(buttons);
+    // ASIGNAR ANIMACION A SELECTOR SUBJECT
+    UI.setAnimation('.card');
 
     const subject = document.getElementById('selector-subject').addEventListener('click', function(e){
+        let subtitle = '';
         if (e.target.id === 'btn-redes'){
-            // CODIGO TEMPORAL
-            console.log('redes');
-            let buttons = [
-                {id: 'btn-a', text: 'A. si'},
-                {id: 'btn-b', text: 'B. si'},
-                {id: 'btn-c', text: 'C. si'},
-                {id: 'btn-d', text: 'D. si'},
-                {id: 'btn-e', text: 'E. si'}
-            ]
-            UI.setCardQuestion(buttons, "Esta es una preguntas",1);
+            // ASIGNAR SUBTITULO
+            subtitle = "Redes de computadores II";
         } else if (e.target.id === 'btn-semiprog'){
-            console.log('semiprog');
+            // ASIGNAR SUBTITULO
+            subtitle = "Seminario de programacion II";
         }
+        document.getElementById('subtitle').innerText = subtitle;
     });
 };
+
+// FUNCIONES 
+function getFile(URL){
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var questions = JSON.parse(this.responseText).sort(function(){return Math.random() - 0.5});
+        }
+    };
+    xmlhttp.open("GET", URL, true);
+    xmlhttp.send();
+}

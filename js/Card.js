@@ -27,9 +27,8 @@ class Card{
         card.appendChild(header);
         card.appendChild(body);
 
-        this.container.innerText = "";
+        //this.container.innerText = "";
         this.container.appendChild(card);
-
     }
 
     setCardQuestion(buttons, text_question, num_question){
@@ -55,6 +54,23 @@ class Card{
 
         this.container.innerText = "";
         this.container.appendChild(card);
+    }
+
+    setAnimation(element, value = 'in'){
+
+        if (value === 'in'){
+            TweenMax.from(element, 2, {
+                y: 100,
+                opacity: 0,
+                ease: Expo.easeInOut
+            });
+        } else if (value === 'out') {
+            TweenMax.to(element, 2, {
+                y: 100,
+                opacity: 0,
+                ease: Expo.easeInOut
+            });
+        }
     }
 
 }
