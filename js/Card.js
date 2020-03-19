@@ -35,14 +35,13 @@ class Card{
         const body = this.createOptions(buttons, 'btn btn-answer text-left');
         const question = document.createElement('div');
         question.setAttribute('id', 'question');
-        console.log(question);
         question.innerText = text_question;
         body.insertBefore(question,body.firstChild);
         //body.innerHTML += `<button id="btn-next-question" class="btn">Siguiente</button>`;
 
         const card = document.createElement('div');
         card.setAttribute('class', 'card');
-        card.setAttribute('id', 'quiz');
+        card.setAttribute('id', 'quiz-'+num_question);
 
         const header = document.createElement('div');
         header.setAttribute('class', 'card-header');
@@ -51,7 +50,7 @@ class Card{
         card.appendChild(header);
         card.appendChild(body);
 
-        this.container.innerText = "";
+        //this.container.innerText = "";
         this.container.appendChild(card);
     }
 

@@ -7,6 +7,7 @@ var questions_semiprog = [];
 // CARGAR ARCHIVOS -- TEMPORAL
 getFile('questions/carlos/questions-redes2.json', 'redes');
 getFile('questions/yiner/questions-redes2.json', 'redes');
+
 getFile('questions/carlos/questions-semiprog2.json', 'semiprog');
 getFile('questions/yiner/questions-semiprog2.json', 'semiprog');
 
@@ -41,8 +42,8 @@ window.onload = function (){
 
             // CREAR SELECTOR DE BANCO DE PREGUNTAS
             UI.setCardSelector([
-                {id: 'btn-1', text:'Opcion 1'},
-                {id: 'btn-2', text:'Opcion 2'},
+                {id: 'btn-option1', text:'Opcion 1'},
+                {id: 'btn-option2', text:'Opcion 2'},
                 {id: 'btn-all', text:'Todas las preguntas'}
             ], 'Seleccion de banco de preguntas','question_bank', 2000);
 
@@ -50,14 +51,32 @@ window.onload = function (){
             UI.setAnimation('#question_bank','in',1.2);
 
             const bank = document.getElementById('question_bank').addEventListener('click', function(e){
-                let bank_select = -1;
-                if (e.target.id === 'btn-1'){
-                    bank_select = 0;
-                } else if (e.target.id === 'btn-2'){
-                    bank_select = 1;
-                } else if (e.target.id === 'btn-all'){
-                    bank_select = 2;
+                
+                var selected_questions = [];
+
+                if (subtitle === 'Redes de computadores II'){
+                    if (e.target.id === 'btn-option1'){
+                        selected_questions = questions_redes[0];
+                    } else if (e.target.id === 'btn-option2'){
+                        selected_questions = questions_redes[1];
+                    } else if (e.target.id === 'btn-all'){
+                        selected_questions = questions_redes[0].concat(questions_redes[1]);
+                    }
+                } else if (subtitle === 'Seminario de programacion II'){
+                    if (e.target.id === 'btn-option1'){
+                        selected_questions = questions_semiprog[0];
+                    } else if (e.target.id === 'btn-option2'){
+                        selected_questions = questions_semiprog[1];
+                    } else if (e.target.id === 'btn-all'){
+                        selected_questions = questions_semiprog[0].concat(questions_semiprog[1]);
+                    }
                 }
+
+                // ANIMAR SALIDA DEL CARD ANTERIOR
+                UI.setAnimation('#question_bank', 'out');
+                let num_question = 1;
+
+                showQuestion(num_question, selected_questions);
             });
         } else {
             // SI NO HAY OPCIONES DE BANCO DE PREGUNTAS
@@ -81,4 +100,18 @@ function getFile(URL, subject){
     };
     xmlhttp.open("GET", URL, true);
     xmlhttp.send();
+}
+
+function showQuestion(num_question, array_questions){
+    if (num_question < array_questions.length){
+        var current = array_questions[num_question - 1];
+        var buttons = [];
+        var count = 1;
+        current.options.map(function(element){
+            buttons.push({id: 'btn-'+count, text: element});
+        });
+        
+        UI.setCardQuestion(buttons, current.question, num_question);
+        UI.setAnimation('#quiz-'+num_question,'in',1.2);
+    }
 }
