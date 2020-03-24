@@ -3,6 +3,8 @@ import Card from './Card.js';
 const UI = new Card();
 var questions_redes = [];
 var questions_semiprog = [];
+var num_question = 1;
+var select_option = false;
 
 // CARGAR ARCHIVOS -- TEMPORAL
 getFile('questions/carlos/questions-redes2.json', 'redes');
@@ -74,13 +76,45 @@ window.onload = function (){
 
                 // ANIMAR SALIDA DEL CARD ANTERIOR
                 UI.setAnimation('#question_bank', 'out');
-                let num_question = 1;
 
-                showQuestion(num_question, selected_questions);
+                // for (var i = 0; i < selected_questions.length; i++){
+                //     showQuestion(num_question, selected_questions);
+                //     const card_question = document.getElementById('quiz-'+num_question).addEventListener('click', function(e){
+                //         if (e.target.class === 'btn'){
+                //             checkAnswer(num_question, selected_questions,parseInt(e.target.id));
+
+                //             if (select_option == true){
+                //                 const next = document.getElementById('btn-next').addEventListener('click', function(){
+                //                     select_option = false;
+                //                 });
+                //             }
+                            
+                //         }
+                //     });
+                // }
+
+                //PRIMERA PREGUNTA
+                createQuestion(num_question, selected_questions);
+
+                const card_question = document.getElementById('quiz').addEventListener('click', function(e){ 
+                    
+                    if (e.target.id === '0' || e.target.id === '1' || e.target.id === '2' || e.target.id === '3' || e.target.id === '4'){
+                        console.log('check question');
+                        checkAnswer(num_question, selected_questions,parseInt(e.target.id));
+                    }
+
+                    if (select_option === true && e.target.id === 'btn-next') { // YA RESPONDIO LA PREGUNTA
+                        console.log('next question');
+                        num_question++;
+                        editQuestion(num_question, selected_questions);
+                        select_option = false;
+                    }
+                });
+
             });
         } else {
             // SI NO HAY OPCIONES DE BANCO DE PREGUNTAS
-            console.log('LOL');
+            console.log('LOLs');
         }
     });
 };
@@ -102,16 +136,59 @@ function getFile(URL, subject){
     xmlhttp.send();
 }
 
-function showQuestion(num_question, array_questions){
+function createQuestion(num_question, array_questions){
     if (num_question < array_questions.length){
         var current = array_questions[num_question - 1];
         var buttons = [];
-        var count = 1;
+        var count = 0;
         current.options.map(function(element){
-            buttons.push({id: 'btn-'+count, text: element});
+            buttons.push({id: count, text: element});
+            count++;
         });
         
         UI.setCardQuestion(buttons, current.question, num_question);
-        UI.setAnimation('#quiz-'+num_question,'in',1.2);
+        UI.setAnimation('#quiz','in',1.2);
+    }
+}
+
+function editQuestion(num_question, array_questions){
+    if (num_question < array_questions.length){
+        var current = array_questions[num_question - 1];
+        var buttons = [];
+        var count = 0;
+        current.options.map(function(element){
+            buttons.push({id: count, text: element});
+            count++;
+        });
+        UI.setAnimation('#quiz','out',1.2,1);
+        window.setTimeout(function(){
+            UI.editCardQuestion(buttons, current.question, num_question);
+            // ANIMACION
+            TweenMax.to('#quiz', 2, {
+                y: 0,
+                opacity: 1,
+                ease: Expo.easeInOut,
+                delay: 0
+            });
+        }, 1500);
+        //UI.setAnimation('#quiz','in',1.2);
+        // UI.setCardQuestion(buttons, current.question, num_question);
+        // UI.setAnimation('#quiz','in',1.2);
+    }
+}
+
+function checkAnswer(num_question, array_questions, option){
+    if (select_option === false){
+        let button_select = document.getElementById(option);
+        if (array_questions[num_question - 1].answer === option){
+            button_select.className = 'btn text-left correct';
+        } else {
+            button_select.className = 'btn text-left wrong';
+            document.getElementById(array_questions[num_question - 1].answer).className = 'btn text-left correct';
+        }
+
+        select_option = true;
+    
+        UI.addNextButton(button_select.parentNode);
     }
 }
