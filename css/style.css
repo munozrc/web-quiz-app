@@ -172,6 +172,10 @@ header {
         padding: 10px 10%;
     }
 
+    #main {
+        padding-top: 25px;
+    }
+
     #btn-add {
         width: 12%;
     }
