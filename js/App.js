@@ -25,7 +25,6 @@ function loadQuestions(num){
     if (this.readyState == 4 && this.status == 200) {
       questions = JSON.parse(this.responseText).sort(function(){return Math.random() - 0.5});;
       createQuestions(questions);
-      console.log(questions.length);
     }
   };
 
@@ -119,7 +118,6 @@ function checkAnswer(option, btn){
     }
     validar = false;
   }
-  console.log("score = " + score);
 }
 
 function showResult(){
