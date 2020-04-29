@@ -1,2 +1,9 @@
-# web-quiz-app
-Esta es una aplicación creada usando Javascript, con la finalidad de generar preguntas de forma aleatoria.
+## Available Scripts
+
+In the project directory, you can run:
+
+### `yarn start`
+
+### `yarn test`
+
+### `yarn build`
