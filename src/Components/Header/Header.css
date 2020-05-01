@@ -9,7 +9,8 @@
 
 .hero-author p {
     color: #CCD1D1;
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: 300;
 }
 
 .hero-author p a {
@@ -22,11 +23,9 @@
     color: #E74C3C;
 }
 
-
 /*  HERO SECTION IN HEADER */
 .hero-section {
     width: 100%;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -37,18 +36,30 @@
 
 .hero-logo{
     color: #fff;
-    padding: 15px 0 15px 0;
+    padding: 30px;
     transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .hero-title {
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 700;
+    line-height: 45px;
 }
 
+.hero-location {
+    padding-left: 8px;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+/* ADD SECTION */
 .add-section {
     padding-right: 10%;
 }
 .add-section img {
     width: 60px;
+    cursor: pointer;
 }

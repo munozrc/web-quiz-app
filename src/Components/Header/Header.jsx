@@ -16,7 +16,7 @@ const Header = ({ location = 'Home' }) => {
             <div className="hero-section">
                 <div className="hero-logo">
                     <h1 className="hero-title">Quiz App</h1>
-                    <p className="hero-location">{location}</p>
+                    <p className="hero-location"> | {location}</p>
                 </div>
 
                 <div className="add-section">
