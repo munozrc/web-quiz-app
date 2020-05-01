@@ -63,3 +63,67 @@
     width: 60px;
     cursor: pointer;
 }
+
+@media(max-width: 600px) {
+    /* HERO SECTION*/
+    .hero-section {
+        padding-left: 0;
+    }
+
+    /* HERO SECTION*/
+    .hero-section {
+        padding-left: 0;
+    }
+    .hero-logo{
+        padding: 25px;
+    }
+    
+    .hero-title {
+        font-size: 38px;
+    }
+    
+    .hero-location {
+        font-size: 20px;
+    }
+
+    /* ADD SECTION */
+    .add-section {
+        padding-right: 4%;
+    }
+    .add-section img {
+        width: 60px;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 360px){
+    /* AUTHOR */
+    .hero-author p {
+        font-size: 14px;
+    }
+
+    /* HERO SECTION*/
+    .hero-section {
+        padding-left: 0;
+    }
+    .hero-logo{
+        padding: 20px;
+    }
+    
+    .hero-title {
+        font-size: 30px;
+    }
+    
+    .hero-location {
+        font-size: 15px;
+    }
+
+    /* ADD SECTION */
+    .add-section {
+        padding-right: 4%;
+    }
+    .add-section img {
+        width: 40px;
+        cursor: pointer;
+    }
+}
