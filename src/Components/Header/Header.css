@@ -1,0 +1,54 @@
+.hero-author {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    background-color: #222;
+}
+
+.hero-author p {
+    color: #CCD1D1;
+    font-size: 15px;
+}
+
+.hero-author p a {
+    text-decoration: none;
+    color: #CCD1D1;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-author p a:hover {
+    color: #E74C3C;
+}
+
+
+/*  HERO SECTION IN HEADER */
+.hero-section {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    background-color: #E74C3C;
+}
+
+.hero-logo{
+    color: #fff;
+    padding: 15px 0 15px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.add-section {
+    padding-right: 10%;
+}
+.add-section img {
+    width: 60px;
+}
