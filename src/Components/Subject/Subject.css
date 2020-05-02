@@ -41,7 +41,7 @@
     }
 }
 
-@media(min-width: 320px) {
+@media(max-width: 320px) {
     .subject-wrapper {
         width: 100%;
         margin: auto;
@@ -53,5 +53,7 @@
         padding-top: 20px;
     }
 }
+
+
 
 
