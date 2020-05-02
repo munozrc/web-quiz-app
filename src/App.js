@@ -7,6 +7,7 @@ import React, { useState } from 'react';
 import './App.css'
 // Import Components
 import Header from './Components/Header/Header'
+import Subject from './Components/Subject/Subject'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <main className="wrapper">
         <Header location={location}/>
+        <Subject/>
     </main>
   );
 }
