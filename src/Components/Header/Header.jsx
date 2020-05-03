@@ -3,13 +3,13 @@ import './Header.css'
 
 import IconAdd from '../../Images/icons/add.png'
 
-const Header = ({ location = 'Home' }) => {
+const Header = ({ location }) => {
 
     return (
         <React.Fragment>
             <div className="hero-author">
                 <p className="author-name">
-                    by <a href="https://github.com/iamcarlosmunoz">@iamcarlosmunoz</a>
+                    by <a href="https://github.com/iamcarlosmunoz" target="_blank" rel="noopener noreferrer" >@iamcarlosmunoz</a>
                 </p>
             </div>
 
