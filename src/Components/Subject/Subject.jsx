@@ -5,11 +5,7 @@ import Card from '../Card/Card'
 import ImgNetwork from '../../Images/icons/domain.svg'
 import ImgIOT from '../../Images/icons/electronics.svg'
 
-const Subject = () => {
-
-    const HandleOnClick = () => {
-        console.log("YEI!!")
-    }
+const Subject = ({ handleChangeSubject }) => {
 
     return (
         <div className="subject-wrapper">
@@ -21,12 +17,12 @@ const Subject = () => {
                     <Card
                         title="Redes de Computadores II"
                         img={ImgNetwork}
-                        handleOnClick={HandleOnClick}
+                        handleOnClick={handleChangeSubject}
                     />
                     <Card
                         title="Seminario de Programación II"
                         img={ImgIOT}
-                        handleOnClick={HandleOnClick}
+                        handleOnClick={handleChangeSubject}
                     />
                 </div>
             </div>

@@ -8,15 +8,29 @@ import './App.css'
 // Import Components
 import Header from './Components/Header/Header'
 import Subject from './Components/Subject/Subject'
+import ButtonPrimary from './Components/ButtonPrimary/ButtonPrimary'
 
 function App() {
 
   const [ location, setLocation ] = useState('Home')
 
+  const HandleSubject = ( newLocation ) => {
+    setLocation(newLocation)
+  }
+
+  const HandleClick = e => {
+    console.log(e.target)
+  }
+
   return (
     <main className="wrapper">
         <Header location={location}/>
-        <Subject/>
+        <Subject handleChangeSubject={HandleSubject}/>
+        <ButtonPrimary 
+          name='back'
+          value='Regresar'
+          onClick={HandleClick}
+        />
     </main>
   );
 }

@@ -5,7 +5,7 @@ const Card = ({ title, img , handleOnClick }) => {
 
     return (
         <div className="card-container">
-            <div className="card-body" onClick={handleOnClick}>
+            <div className="card-body" onClick={() => handleOnClick(title)}>
                 <div className="card-image">
                     <img src={img} alt={title} className="card-img"/>
                 </div>

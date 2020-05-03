@@ -13,7 +13,12 @@
     align-items: center;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+
+.card-body:active {
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0);
 }
 
 .card-image {
