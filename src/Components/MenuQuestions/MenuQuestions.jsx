@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './styles.css'
 
 import ButtonPrimary from '../ButtonPrimary/ButtonPrimary'
+import ItemQuestions from './ItemQuestions'
 
-const MenuQuestions = () => {
+const MenuQuestions = ({ authors, location, addQuestions, deleteQuestions }) => {
+
+    const [ questions, setQuestions ] = useState([])
 
     const handleSelect = e => {
+
         let check
+        let id
+        let name
+
         if (e.target.className === 'no-check' || e.target.className === 'active')
             check = e.target
         else
@@ -14,11 +21,22 @@ const MenuQuestions = () => {
         
         if (check.className === 'active') {
             check.className = 'no-check'
+            id = check.getAttribute('id')
+            name = check.getAttribute('name')
+            let filter_question = questions.filter(element => (element.id === id && element.name === name))
+            setQuestions(questions.filter(element => element !== filter_question[0]))
         } else {
             check.className = 'active'
+            id = check.getAttribute('id')
+            name = check.getAttribute('name')
+            setQuestions(questions.concat([{id, name}]))
         }
+    }
 
-        console.log(check)
+    const handleOnClick = () => {
+        questions.map( element => (
+            addQuestions(element.id, element.name)
+        ))
     }
 
     return (
@@ -26,46 +44,23 @@ const MenuQuestions = () => {
             <div className="menuquestions--wrapper">
                 <h1 className="menuquestions--title">Seleccione las preguntas</h1>
                 <div className="menuquestions--container-items">
-                    <div className="menuquestions--item">
-                        <h2> Author: Carlos Muñoz </h2>
-                        <ul className="menuquestions--bank-questions">
-                            <li onClick={handleSelect} id='list'>
-                                <p> REDES P13 (Tema 9)</p><span className="no-check"> </span>
-                            </li>
-                            <li onClick={handleSelect}>
-                                <p> REDES P14 (Tema 9)</p><span className="no-check"> </span>
-                            </li>
-                            <li onClick={handleSelect}>
-                                <p> REDES P15 (Tema 9)</p><span className="no-check"> </span>
-                            </li>
-                            <li onClick={handleSelect}>
-                                <p> REDES P16 (Tema 9)</p><span className="no-check"> </span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="menuquestions--item">
-                        <h2> Author: David Chicumque </h2>
-                        <ul className="menuquestions--bank-questions">
-                            <li onClick={handleSelect}>
-                                <p> REDES P13 (Tema 9)</p><span className="no-check"> </span>
-                            </li>
-                            <li onClick={handleSelect}>
-                                <p> REDES P14 (Tema 9)</p><span className="no-check"> </span>
-                            </li>
-                            <li onClick={handleSelect}>
-                                <p> REDES P15 (Tema 9)</p><span className="no-check"> </span>
-                            </li>
-                            <li onClick={handleSelect}>
-                                <p> REDES P16 (Tema 9)</p><span className="no-check"> </span>
-                            </li>
-                        </ul>
-                    </div>
+                    {
+                        authors.map(element => (
+                            <ItemQuestions 
+                                key={element.id}
+                                author={element.name}
+                                list_items={location === 'Redes de Computadores II' ? element.subject.redes : element.subject.semiprog}
+                                handleSelect={handleSelect}
+                            />
+                        ))
+                    }
                 </div>
             </div>
 
             <ButtonPrimary
                 name='continue'
                 value='Continuar'
+                onClick={handleOnClick}
             />
         </div>
     )
