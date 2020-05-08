@@ -9,6 +9,7 @@ import './App.css'
 import Header from './Components/Header/Header'
 import Subject from './Components/Subject/Subject'
 import ButtonPrimary from './Components/ButtonPrimary/ButtonPrimary'
+import MenuQuestions from './Components/MenuQuestions/MenuQuestions'
 
 function App() {
 
@@ -18,19 +19,31 @@ function App() {
     setLocation(newLocation)
   }
 
-  const HandleClick = e => {
+  const HandleClickButton = e => {
     console.log(e.target)
   }
 
   return (
     <main className="wrapper">
         <Header location={location}/>
-        <Subject handleChangeSubject={HandleSubject}/>
-        <ButtonPrimary 
-          name='back'
-          value='Regresar'
-          onClick={HandleClick}
-        />
+        {
+          location === 'Home' &&
+          <React.Fragment>
+            <Subject handleChangeSubject={HandleSubject}/>
+            <ButtonPrimary 
+              name='back'
+              value='Regresar'
+              onClick={HandleClickButton}
+            />
+          </React.Fragment>
+        }
+
+        {
+          location === 'Redes de Computadores II' &&
+          <React.Fragment>
+            <MenuQuestions />
+          </React.Fragment>
+        }
     </main>
   );
 }

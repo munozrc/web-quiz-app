@@ -1,6 +1,6 @@
 /*
   NameProyect: QuizApp
-  Author: by Carlosmuñoz
+  Author: by CarlosMuñoz
   Year: 2020
   version: v1.0
 */
