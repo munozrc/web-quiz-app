@@ -2,7 +2,7 @@ import React from 'react'
 
 const ItemList = ( { id, name, text, handleSelect }) => (
     <li onClick={handleSelect}>
-        <p> {text} </p><span className="no-check" name={name} id={id}> </span>
+        <p> {text} </p><button className="no-check" name={name} id={id}> </button>
     </li>
 )
 

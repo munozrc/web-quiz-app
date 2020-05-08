@@ -1,6 +1,7 @@
 import React from 'react'
 import './Subject.css'
 import Card from '../Card/Card'
+import { REDES, SEMIPROG } from '../variables'
 
 import ImgNetwork from '../../Images/icons/domain.svg'
 import ImgIOT from '../../Images/icons/electronics.svg'
@@ -15,12 +16,12 @@ const Subject = ({ handleChangeSubject }) => {
                 </h1>
                 <div className="subject-card-container">
                     <Card
-                        title="Redes de Computadores II"
+                        title={ REDES }
                         img={ImgNetwork}
                         handleOnClick={handleChangeSubject}
                     />
                     <Card
-                        title="Seminario de Programación II"
+                        title={ SEMIPROG }
                         img={ImgIOT}
                         handleOnClick={handleChangeSubject}
                     />

@@ -9,6 +9,7 @@ import './App.css'
 import Header from './Components/Header/Header'
 import Subject from './Components/Subject/Subject'
 import MenuQuestions from './Components/MenuQuestions/MenuQuestions'
+import { REDES, SEMIPROG, HOME } from './Components/variables'
 
 // Import Files
 import question_p13_redes_01 from './questions/carlos/redes-p13.json'
@@ -25,7 +26,7 @@ import question_p14_semiprog_02 from './questions/david/semiprog-p13.json'
 
 function App() {
 
-  const [ location, setLocation ] = useState('Home')
+  const [ location, setLocation ] = useState( HOME )
   const [ questions, setQuestions ] = useState([])
   let list_questions = []
 
@@ -100,9 +101,9 @@ function App() {
 
     let origin_questions = authors.filter(element => element.name === author)
 
-    if (location === 'Redes de Computadores II') {
+    if ( location === REDES ) {
       list_questions = list_questions.concat(origin_questions[0].subject.redes[question])
-    } else if (location === 'Seminario de Programación II') {
+    } else if ( location === SEMIPROG ) {
       list_questions = list_questions.concat(origin_questions[0].subject.semiprog[question])
     }
 
@@ -111,21 +112,21 @@ function App() {
 
   return (
     <main className="wrapper">
-        <Header location={location}/>
+        <Header location={ location }/>
         {
-          location === 'Home' &&
+          location === HOME &&
           <React.Fragment>
-            <Subject handleChangeSubject={HandleSubject}/>
+            <Subject handleChangeSubject={ HandleSubject }/>
           </React.Fragment>
         }
 
         {
-          (location === 'Redes de Computadores II' || location === 'Seminario de Programación II') &&
+          ( location === REDES || location === SEMIPROG ) &&
           <React.Fragment>
             <MenuQuestions 
-              authors={authors}
-              location={location}
-              addQuestions={addQuestions}
+              authors={ authors }
+              location={ location }
+              addQuestions={ addQuestions }
             />
           </React.Fragment>
         }

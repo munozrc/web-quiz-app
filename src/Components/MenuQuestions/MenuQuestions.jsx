@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './styles.css'
 
+import { REDES } from '../variables'
 import ButtonPrimary from '../ButtonPrimary/ButtonPrimary'
 import ItemQuestions from './ItemQuestions'
 
@@ -11,8 +12,6 @@ const MenuQuestions = ({ authors, location, addQuestions}) => {
     const handleSelect = e => {
 
         let check
-        let id
-        let name
 
         if (e.target.className === 'no-check' || e.target.className === 'active')
             check = e.target
@@ -21,14 +20,12 @@ const MenuQuestions = ({ authors, location, addQuestions}) => {
         
         if (check.className === 'active') {
             check.className = 'no-check'
-            id = check.getAttribute('id')
-            name = check.getAttribute('name')
-            let filter_question = questions.filter(element => (element.id === id && element.name === name))
+            let filter_question = questions.filter(element => (element.id === check.id && element.name === check.name))
             setQuestions(questions.filter(element => element !== filter_question[0]))
         } else {
             check.className = 'active'
-            id = check.getAttribute('id')
-            name = check.getAttribute('name')
+            let id = check.getAttribute('id')
+            let name = check.getAttribute('name')
             setQuestions(questions.concat([{id, name}]))
         }
     }
@@ -47,21 +44,24 @@ const MenuQuestions = ({ authors, location, addQuestions}) => {
                     {
                         authors.map(element => (
                             <ItemQuestions 
-                                key={element.id}
-                                author={element.name}
-                                list_items={location === 'Redes de Computadores II' ? element.subject.redes : element.subject.semiprog}
-                                handleSelect={handleSelect}
+                                key = { element.id }
+                                author = { element.name }
+                                list_items = { location === REDES ? element.subject.redes : element.subject.semiprog } 
+                                handleSelect = { handleSelect }
                             />
                         ))
                     }
                 </div>
             </div>
 
-            <ButtonPrimary
-                name='continue'
-                value='Continuar'
-                onClick={handleOnClick}
-            />
+            {
+                questions.length > 0 &&
+                <ButtonPrimary
+                    name='continue'
+                    value='Continuar'
+                    onClick={handleOnClick}
+                />
+            }
         </div>
     )
 }

@@ -61,16 +61,18 @@
     border-bottom: solid 2px #2222;
 }
 
-.menuquestions--bank-questions li span {
+.menuquestions--bank-questions li button {
     width: 25px;
     height: 25px;
     background-image: url(../../Images/icons/no-check.svg);
     background-repeat: no-repeat;
     filter: invert(0.4) sepia(1);
     transition: all 0.2s ease-in-out;
+    border: none;
+    background-color: transparent;
 }
 
-.menuquestions--bank-questions li span.active {
+.menuquestions--bank-questions li button.active {
     background-image: url(../../Images/icons/check.svg);
     background-repeat: no-repeat;
     filter: none;
