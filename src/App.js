@@ -17,6 +17,12 @@ import question_p14_redes_01 from './questions/carlos/redes-p14.json'
 import question_p13_redes_02 from './questions/david/redes-p13.json'
 import question_p14_redes_02 from './questions/david/redes-p13.json'
 
+import question_p13_semiprog_01 from './questions/carlos/semiprog-p13.json'
+import question_p14_semiprog_01 from './questions/carlos/semiprog-p14.json'
+
+import question_p13_semiprog_02 from './questions/david/semiprog-p13.json'
+import question_p14_semiprog_02 from './questions/david/semiprog-p13.json'
+
 function App() {
 
   const [ location, setLocation ] = useState('Home')
@@ -40,7 +46,18 @@ function App() {
             file: question_p14_redes_01
           }
         ],
-        semiprog: []
+        semiprog: [
+          {
+            id: 0,
+            text: 'Preguntas #13',
+            file: question_p13_semiprog_01
+          },
+          {
+            id: 1,
+            text: 'Preguntas #14',
+            file: question_p14_semiprog_01
+          }
+        ]
       }
     },
     {
@@ -59,7 +76,18 @@ function App() {
             file: question_p14_redes_02
           }
         ],
-        semiprog: []
+        semiprog: [
+          {
+            id: 0,
+            text: 'Preguntas #13',
+            file: question_p13_semiprog_02
+          },
+          {
+            id: 1,
+            text: 'Preguntas #14',
+            file: question_p14_semiprog_02
+          }
+        ]
       }
     }
   ]
@@ -74,21 +102,11 @@ function App() {
 
     if (location === 'Redes de Computadores II') {
       list_questions = list_questions.concat(origin_questions[0].subject.redes[question])
-    } else if (location === 'Seminario de Programacion II') {
+    } else if (location === 'Seminario de Programación II') {
       list_questions = list_questions.concat(origin_questions[0].subject.semiprog[question])
     }
 
     setQuestions(list_questions)
-  }
-
-  const deleteQuestions = ( question, author ) => {
-    let origin_questions = authors.filter(element => element.name === author)
-
-    if (location === 'Redes de Computadores II') {
-      setQuestions(questions.filter(element => element.file !== origin_questions[0].subject.redes[question].file))
-    } else if (location === 'Seminario de Programacion II') {
-      setQuestions(questions.filter(element => element.file !== origin_questions[0].subject.semiprog[question].file))
-    }
   }
 
   return (
@@ -102,13 +120,12 @@ function App() {
         }
 
         {
-          location === 'Redes de Computadores II' &&
+          (location === 'Redes de Computadores II' || location === 'Seminario de Programación II') &&
           <React.Fragment>
             <MenuQuestions 
               authors={authors}
               location={location}
               addQuestions={addQuestions}
-              deleteQuestions={deleteQuestions}
             />
           </React.Fragment>
         }

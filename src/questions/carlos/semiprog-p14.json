@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Proporciona una forma de usar el terminal de Pi a través de una red, creando una conexión encriptada entre el Pi y cualquier otra computadora.",
+        "options":
+        [
+            "A. SSH",
+            "B. FTP",
+            "C. UDP",
+            "D. VLAN",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Es un estándar de comunicaciones utilizado por Raspberry Pi  para comunicarse con el hardware externo a través del puerto GPIO.",
+        "options":
+        [
+            "A. FTP",
+            "B. La interfaz periférica en serie (SPI) ",
+            "C. TCP/IP",
+            "D. GPI",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Se refiere al proceso de ejecutar un dispositivo a una velocidad superior a la prevista por sus fabricantes.",
+        "options":
+        [
+            "A. Clocking",
+            "B. Benchmark",
+            "C. Overclocking",
+            "D. DRAM",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Por defecto cuánta memoria está reservada para el uso de la GPU en Raspberry Pi.",
+        "options":
+        [
+            "A. 1GB",
+            "B. 128MB",
+            "C. 512MB",
+            "D. 16MB",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Las radios Wi-Fi (wifi country) pueden transmitir en frecuencias particulares, que se dividen en más pequeñas. Es importante configurar este apartado ya que:",
+        "options":
+        [
+            "A. su uso están regulados y varía de país en país.",
+            "B. No es importante.",
+            "C. Sin el el wifi no funciona.",
+            "D. La conexión por wi-fi se pierda.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    }
+]

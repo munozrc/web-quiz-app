@@ -4,7 +4,7 @@ import './styles.css'
 import ButtonPrimary from '../ButtonPrimary/ButtonPrimary'
 import ItemQuestions from './ItemQuestions'
 
-const MenuQuestions = ({ authors, location, addQuestions, deleteQuestions }) => {
+const MenuQuestions = ({ authors, location, addQuestions}) => {
 
     const [ questions, setQuestions ] = useState([])
 
