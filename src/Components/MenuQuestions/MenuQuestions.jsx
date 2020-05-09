@@ -18,6 +18,9 @@ const MenuQuestions = ({ authors, location, addQuestions, initQuiz}) => {
         else
             check = e.target.lastChild
         
+        console.log(check)
+
+
         if (check.className === 'active') {
             check.className = 'no-check'
             let filter_question = questions.filter(element => (element.id === check.id && element.name === check.name))
