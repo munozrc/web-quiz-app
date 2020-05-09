@@ -9,6 +9,7 @@ import './App.css'
 import Header from './Components/Header/Header'
 import Subject from './Components/Subject/Subject'
 import MenuQuestions from './Components/MenuQuestions/MenuQuestions'
+import Quiz from './Components/Quiz/Quiz'
 import { REDES, SEMIPROG, HOME } from './Components/variables'
 
 // Import Files
@@ -28,6 +29,7 @@ function App() {
 
   const [ location, setLocation ] = useState( HOME )
   const [ questions, setQuestions ] = useState([])
+  const [ quiz, setQuiz ] = useState(false)
   let list_questions = []
 
   const authors = [
@@ -97,6 +99,10 @@ function App() {
     setLocation(newLocation)
   }
 
+  const HandleInitQuiz = ( value ) => {
+    setQuiz(value)
+  }
+
   const addQuestions = ( question, author ) => {
 
     let origin_questions = authors.filter(element => element.name === author)
@@ -121,14 +127,24 @@ function App() {
         }
 
         {
-          ( location === REDES || location === SEMIPROG ) &&
+          !quiz && 
           <React.Fragment>
-            <MenuQuestions 
-              authors={ authors }
-              location={ location }
-              addQuestions={ addQuestions }
-            />
+            {
+              ( location === REDES || location === SEMIPROG ) &&
+              <React.Fragment>
+                <MenuQuestions 
+                  authors={ authors }
+                  location={ location }
+                  addQuestions={ addQuestions }
+                  initQuiz = { HandleInitQuiz }
+                />
+              </React.Fragment>
+            }
           </React.Fragment>
+        }
+
+        {
+          quiz && <Quiz />
         }
     </main>
   );

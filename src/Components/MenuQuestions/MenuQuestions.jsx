@@ -5,7 +5,7 @@ import { REDES } from '../variables'
 import ButtonPrimary from '../ButtonPrimary/ButtonPrimary'
 import ItemQuestions from './ItemQuestions'
 
-const MenuQuestions = ({ authors, location, addQuestions}) => {
+const MenuQuestions = ({ authors, location, addQuestions, initQuiz}) => {
 
     const [ questions, setQuestions ] = useState([])
 
@@ -34,6 +34,8 @@ const MenuQuestions = ({ authors, location, addQuestions}) => {
         questions.map( element => (
             addQuestions(element.id, element.name)
         ))
+
+        initQuiz(true)  // INICIAR QUIZ
     }
 
     return (
@@ -58,7 +60,7 @@ const MenuQuestions = ({ authors, location, addQuestions}) => {
                 questions.length > 0 &&
                 <ButtonPrimary
                     name='continue'
-                    value='Continuar'
+                    value='Iniciar Quiz'
                     onClick={handleOnClick}
                 />
             }
