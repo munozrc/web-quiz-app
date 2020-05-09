@@ -108,12 +108,13 @@ function App() {
     let origin_questions = authors.filter(element => element.name === author)
 
     if ( location === REDES ) {
-      list_questions = list_questions.concat(origin_questions[0].subject.redes[question])
+      list_questions = list_questions.concat(origin_questions[0].subject.redes[question].file)
     } else if ( location === SEMIPROG ) {
-      list_questions = list_questions.concat(origin_questions[0].subject.semiprog[question])
+      list_questions = list_questions.concat(origin_questions[0].subject.semiprog[question].file)
     }
 
-    setQuestions(list_questions)
+    // AÑADIR AL ARRAY FINAL
+    setQuestions(list_questions.sort(() => { return Math.random() - 0.5 }))
   }
 
   return (
@@ -144,7 +145,7 @@ function App() {
         }
 
         {
-          quiz && <Quiz />
+          quiz && <Quiz questions = { questions } />
         }
     </main>
   );

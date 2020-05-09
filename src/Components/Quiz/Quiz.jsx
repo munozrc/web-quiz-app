@@ -1,38 +1,55 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './style.css'
 
-import ButtonVoid from '../ButtonVoid/ButtonVoid'
+import Questions from './Questions'
+import ButtonPrimary from '../ButtonPrimary/ButtonPrimary'
 
-const Quiz = () => {
+const Quiz = ({ questions }) => {
+
+    // Global Variables
+    const [ currentQuestion, setCurrentQuestion ] = useState(0)
+    const [ checkQuestion, setCheckQuestion ] = useState(false)
+
+    const HandleCheckAnswer = e => {
+
+        if (!checkQuestion) {
+
+            if ( questions[currentQuestion].answer === parseInt(e.target.name)) {
+                e.target.className += ' correct'
+            } else {
+                e.target.className += ' wrong'
+                document.getElementsByName(questions[currentQuestion].answer)[0].className += ' correct'
+            }
+    
+            setCheckQuestion(true)
+        }
+    }
+
+    const HandleNextQuestion = e => {
+
+        if ( currentQuestion <= questions.length ) {
+            setCurrentQuestion(currentQuestion + 1)
+            setCheckQuestion(false)
+        } else {
+            console.log('END QUIZ')
+        }
+    }
 
     return (
         <div className="quiz--container">
             <div className="quiz--wrapper">
-                <div className="quiz--question">
-                    <h2 className="quiz--question--title">Si un usuario desea tener acceso a una red de datos como Internet, barata, con un ancho de banda aceptable y que no impida el uso independiente del teléfono. es posible mediante:</h2>
-                    <ul>
-                        <li><ButtonVoid 
-                            name={'0'}
-                            value={'A. Fibra óptica.'}
-                        /></li>
-                        <li><ButtonVoid 
-                            name={'0'}
-                            value={'B. Fibra óptica.'}
-                        /></li>
-                        <li><ButtonVoid 
-                            name={'0'}
-                            value={'C. Fibra óptica.'}
-                        /></li>
-                        <li><ButtonVoid 
-                            name={'0'}
-                            value={'D. Fibra óptica.'}
-                        /></li>
-                        <li><ButtonVoid 
-                            name={'0'}
-                            value={'E. Fibra óptica.'}
-                        /></li>
-                    </ul>
-                </div>
+                <Questions 
+                    question = { questions[currentQuestion] }
+                    onClick = { HandleCheckAnswer }
+                />
+                {
+                    checkQuestion && 
+                    <ButtonPrimary 
+                        name='next-question'
+                        value='Siguiente'
+                        onClick={HandleNextQuestion}
+                    />
+                }
             </div>
         </div>
     )

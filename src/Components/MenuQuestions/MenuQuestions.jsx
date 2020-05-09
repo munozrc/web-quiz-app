@@ -17,8 +17,6 @@ const MenuQuestions = ({ authors, location, addQuestions, initQuiz}) => {
             check = e.target
         else
             check = e.target.lastChild
-        
-        console.log(check)
 
 
         if (check.className === 'active') {
