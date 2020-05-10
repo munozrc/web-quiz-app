@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.bfa2d19f.chunk.css",
-    "main.js": "/static/js/main.2191d6d4.chunk.js",
-    "main.js.map": "/static/js/main.2191d6d4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0d9708cb.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0d9708cb.js.map",
-    "static/js/2.e9112bfc.chunk.js": "/static/js/2.e9112bfc.chunk.js",
-    "static/js/2.e9112bfc.chunk.js.map": "/static/js/2.e9112bfc.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.9d54f03d0a3d8a84d42fa7f47921e741.js": "/precache-manifest.9d54f03d0a3d8a84d42fa7f47921e741.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.bfa2d19f.chunk.css.map": "/static/css/main.bfa2d19f.chunk.css.map",
-    "static/js/2.e9112bfc.chunk.js.LICENSE.txt": "/static/js/2.e9112bfc.chunk.js.LICENSE.txt",
-    "static/media/styles.css": "/static/media/no-check.ca41c76d.svg",
-    "static/media/correct.svg": "/static/media/correct.443014aa.svg",
-    "static/media/domain.svg": "/static/media/domain.ad7df549.svg",
-    "static/media/electronics.svg": "/static/media/electronics.27d7e7bc.svg",
-    "static/media/wrong.svg": "/static/media/wrong.599fcb61.svg"
+    "main.css": "/web-quiz-app/static/css/main.5dd0bfe4.chunk.css",
+    "main.js": "/web-quiz-app/static/js/main.2191d6d4.chunk.js",
+    "main.js.map": "/web-quiz-app/static/js/main.2191d6d4.chunk.js.map",
+    "runtime-main.js": "/web-quiz-app/static/js/runtime-main.39b060ef.js",
+    "runtime-main.js.map": "/web-quiz-app/static/js/runtime-main.39b060ef.js.map",
+    "static/js/2.e9112bfc.chunk.js": "/web-quiz-app/static/js/2.e9112bfc.chunk.js",
+    "static/js/2.e9112bfc.chunk.js.map": "/web-quiz-app/static/js/2.e9112bfc.chunk.js.map",
+    "index.html": "/web-quiz-app/index.html",
+    "precache-manifest.d1a93b97ee0c3d39a178feeb997df14a.js": "/web-quiz-app/precache-manifest.d1a93b97ee0c3d39a178feeb997df14a.js",
+    "service-worker.js": "/web-quiz-app/service-worker.js",
+    "static/css/main.5dd0bfe4.chunk.css.map": "/web-quiz-app/static/css/main.5dd0bfe4.chunk.css.map",
+    "static/js/2.e9112bfc.chunk.js.LICENSE.txt": "/web-quiz-app/static/js/2.e9112bfc.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/web-quiz-app/static/media/no-check.ca41c76d.svg",
+    "static/media/correct.svg": "/web-quiz-app/static/media/correct.443014aa.svg",
+    "static/media/domain.svg": "/web-quiz-app/static/media/domain.ad7df549.svg",
+    "static/media/electronics.svg": "/web-quiz-app/static/media/electronics.27d7e7bc.svg",
+    "static/media/wrong.svg": "/web-quiz-app/static/media/wrong.599fcb61.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0d9708cb.js",
+    "static/js/runtime-main.39b060ef.js",
     "static/js/2.e9112bfc.chunk.js",
-    "static/css/main.bfa2d19f.chunk.css",
+    "static/css/main.5dd0bfe4.chunk.css",
     "static/js/main.2191d6d4.chunk.js"
   ]
 }
