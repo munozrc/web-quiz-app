@@ -37,6 +37,8 @@ const MenuQuestions = ({ authors, location, addQuestions, initQuiz}) => {
         ))
 
         initQuiz(true)  // INICIAR QUIZ
+
+        setQuestions([])
     }
 
     return (

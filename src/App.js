@@ -117,6 +117,14 @@ function App() {
     setQuestions(list_questions.sort(() => { return Math.random() - 0.5 }))
   }
 
+  const HandleBackHome = () => {
+    setLocation(HOME)
+    setQuestions([])
+    setQuiz(false)
+    list_questions = []
+    HandleInitQuiz(false)
+  }
+
   return (
     <main className="wrapper">
         <Header location={ location }/>
@@ -145,7 +153,7 @@ function App() {
         }
 
         {
-          quiz && <Quiz questions = { questions } />
+          quiz && <Quiz questions = { questions } backHome = { HandleBackHome } />
         }
     </main>
   );

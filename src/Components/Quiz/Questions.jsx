@@ -11,11 +11,13 @@ const Questions = ({ question, onClick }) => {
             <ul>
                 {
                     question.options.map( option => (
-                        <li key = { counter + option } ><ButtonVoid 
-                            name = { counter++ }
-                            value = { option }
-                            onClick = { onClick }
-                        /></li>
+                        <li key = { option + counter } >
+                            <ButtonVoid 
+                                name = { counter++ }
+                                value = { option }
+                                onClick = { onClick }
+                            />
+                        </li>
                     ))
                 }
             </ul>
