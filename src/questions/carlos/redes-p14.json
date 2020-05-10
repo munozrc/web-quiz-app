@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Ataque de seguridad que su finalidad es analizar el tráfico de un red.",
+        "options":
+        [
+            "A. Snooping.",
+            "B. Spoofing.",
+            "C. Data diddling.",
+            "D. Packet Sniffing.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Los problemas de seguridad se plantean en tres áreas principales. El área donde hay que proteger los datos frente a escuchas mediante criptografía se denomina:",
+        "options":
+        [
+            "A. La seguridad de perímetro.",
+            "B. La seguridad en el canal.",
+            "C. La seguridad de acceso",
+            "D. a y b son correctas.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Son un componente básico de la mayor parte de los cortafuegos. Pueden ser un router comercial o basado en un ordenador convencional, con la capacidad para filtrar paquetes. (Trabajan a nivel de red):",
+        "options":
+        [
+            "A. Bastión Host.",
+            "B. Host con doble conexión (Dual-Homed Host).",
+            "C. Encaminador con filtrado.",
+            "D. Cortafuegos mediante filtrado de host (Screen Router).",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Permiten a los usuarios autorizados acceder a los recursos que de otro modo serían inaccesibles. En otras palabras, pueden bloquear el sitio FTP al exterior, a los usuarios de internet y permitir que los usuarios de su intranet se conecten a él desde sus casas.",
+        "options":
+        [
+            "A. Túneles en Cortafuegos.",
+            "B. Firewall Modificado.",
+            "C. Router con permisos.",
+            "D. protocolo UDP.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La capa de transporte se puede utilizar un protocolo que cifra el campo de datos de cada segmento que envía:",
+        "options":
+        [
+            "A. SSH",
+            "B. PING",
+            "C. Packet",
+            "D. TPDU",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    }
+]

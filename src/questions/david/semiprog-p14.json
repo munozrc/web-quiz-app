@@ -1,0 +1,62 @@
+[
+    {
+        "question": "No es una de las divisiones o pestañas de la ventana de configuración de la Raspberry Pi.",
+        "options":
+        [
+            "A. ystem",
+            "B. Localisation",
+            "C. Menu bar",
+            "D. Performance",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Esta característica se realiza automáticamente durante la instalación del SO Raspbian mediante NOOBS dentro de la Raspberry Pi.",
+        "options":
+        [
+            "A. Expand Filesystem",
+            "B. Update all programs",
+            "C. Overclock",
+            "D. Interfaz SSH",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "la RFC (Request For Comments) establece que debe contener solo letras y números, aunque puede incluir guiones siempre que no estén al principio o al final y no puedan incluir espacios, estas son especificaciones para:",
+        "options":
+        [
+            "A. La contraseña de la Raspberry Pi",
+            "B. El SSID de la red",
+            "C. El hostname de la Raspberry Pi",
+            "D. El username para Administrador de la Raspberry Pi ",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Esta iniciativa permite crear un mapa interactivo del mundo, con el fin de ayudar y promover el trabajo colaborativo, en el cual, quienes hacen parte del el, se muestran con una ubicación aproximada de acuerdo a su Raspberry Pi:",
+        "options":
+        [
+            "A. Overscan",
+            "B. Network at boot",
+            "C. boot",
+            "D. Pianywhere",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Durante el proceso de Overclock, este circuito puede diferir su capacidad de ser overclockeado de una unida a otra, inclusive en el mismo lote.",
+        "options":
+        [
+            "A. GPIO port",
+            "B. Capacitor",
+            "C. RAM memory",
+            "D. system-on-chip processor",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    }
+]

@@ -1,0 +1,129 @@
+.hero-author {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    background-color: #222;
+}
+
+.hero-author p {
+    color: #CCD1D1;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.hero-author p a {
+    text-decoration: none;
+    color: #CCD1D1;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-author p a:hover {
+    color: #E74C3C;
+}
+
+/*  HERO SECTION IN HEADER */
+.hero-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    background-color: #E74C3C;
+}
+
+.hero-logo{
+    color: #fff;
+    padding: 30px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.hero-location {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+/* ADD SECTION */
+.add-section {
+    padding-right: 10%;
+}
+.add-section img {
+    width: 60px;
+    cursor: pointer;
+}
+
+@media(max-width: 600px) {
+    /* HERO SECTION*/
+    .hero-section {
+        padding-left: 0;
+    }
+
+    /* HERO SECTION*/
+    .hero-section {
+        padding-left: 0;
+    }
+
+    .hero-logo{
+        padding: 25px;
+    }
+    
+    .hero-title {
+        font-size: 38px;
+    }
+    
+    .hero-location {
+        font-size: 20px;
+    }
+
+    /* ADD SECTION */
+    .add-section {
+        padding-right: 4%;
+    }
+    .add-section img {
+        width: 60px;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 360px){
+    /* AUTHOR */
+    .hero-author p {
+        font-size: 14px;
+    }
+
+    /* HERO SECTION*/
+    .hero-section {
+        padding-left: 0;
+    }
+    .hero-logo{
+        padding: 20px;
+    }
+    
+    .hero-title {
+        font-size: 30px;
+    }
+    
+    .hero-location {
+        font-size: 15px;
+    }
+
+    /* ADD SECTION */
+    .add-section {
+        padding-right: 4%;
+    }
+    .add-section img {
+        width: 40px;
+        cursor: pointer;
+    }
+}

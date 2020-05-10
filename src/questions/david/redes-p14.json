@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Dentro de este tipo de ataque, además de interceptar el tráfico de red, el atacante captura los datos y otra información guardada, que en la mayoría de los casos esta se encuentra en el PC de la víctima.",
+        "options":
+        [
+            "A. Eavesdropping",
+            "B. Packet Sniffing",
+            "C. spoofing",
+            "D. keylogger",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "El cambio frecuente de las contraseñas asociadas a cuentas personales o datos empresariales, y que, a su vez, estas mismas no deben estar relacionadas con el entorno de las personas, es una práctica que previene:",
+        "options":
+        [
+            "A. El snooping",
+            "B. El Land attack",
+            "C. El Cracking",
+            "D. El Winnuke",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Áreas de seguridad que una empresa debe tener en cuenta cuando da acceso a usuarios desde el exterior a sus propias redes internas:",
+        "options":
+        [
+            "A. Perímetro, canal, firewall",
+            "B. Perímetro, criptografía y acceso interno",
+            "C. Canal y acceso interno",
+            "D. Perímetro, acceso y criptografía ",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Dentro de los tipos de Firewalls, cuando se habla de que “todo lo que no es expresamente prohibido está permitido” hace referencia a que:",
+        "options":
+        [
+            "A. Se bloquea el tráfico y Los servicios se deben activar de forma individual.",
+            "B. Se deben predecir el tipo de acciones que los usuarios pueden realizar y preparar defensas contra ellas. ",
+            "C. Se debe priorizar la facilidad de uso que la seguridad",
+            "D. Conocer todos los posibles agujeros de seguridad posibles existentes en los protocolos.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En el área de seguridad en el canal, es una técnica que permite proteger el secreto de los datos y también permite la identificación de los remitentes o destinatarios.",
+        "options":
+        [
+            "A. El criptoanálisis",
+            "B. La auditoria",
+            "C. La criptografía",
+            "D. La autentificación ",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    }
+]
