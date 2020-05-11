@@ -33,6 +33,7 @@
 }
 
 .summary-correct, .summary-wrong {
+    min-width: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -45,6 +46,7 @@
 }
 
 .summary-correct p, .summary-wrong p {
+    min-width: 30px;
     font-size: 18px;
-    margin-left: 5px;
+    text-align: center;
 }
