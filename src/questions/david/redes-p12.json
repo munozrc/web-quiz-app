@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Son ejemplos de medios de trasmisión que, desde el punto de vista del usuario, le permiten la conexión con otros usuarios o a redes públicas utilizando un protocolo.",
+        "options":
+        [
+            "A. RDSI /RGB",
+            "B. RDSI/RTX",
+            "C. SMTP/RSB",
+            "D. RDSI/RTB",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Como suele ser la velocidad de la línea de transmisión que permite la unión de un usuario a la red dentro de circuitos virtuales permanentes.",
+        "options":
+        [
+            "A. Debe ser igual al ancho de banda contratado",
+            "B. Debe ser superior al ancho de banda disponible",
+            "C. Debe ser superior al ancho de banda contratado",
+            "D. Debe ser igual al ancho de banda del ISP",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "En el modo de transmisión elemental conocido como RTB, para establecer un enlace, se hace por medio de la marcación del número del abonado del destino, lo anterior se realiza mediante el proceso de:",
+        "options":
+        [
+            "A. La conmutación de números",
+            "B. La conmutación de paquetes",
+            "C. La conmutación de señales",
+            "D. La conmutación de circuitos ",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Dentro de la tecnología Cablemódem, el medio de trasmisión que se utiliza para conectar las centrales de trasmisión con los distribuidores de zona, es:",
+        "options":
+        [
+            "A. Cable UTP",
+            "B. Fibra óptica",
+            "C. Cable coaxial",
+            "D. Radiofrecuencias ",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Acceso que cconsiste en dos canales full-dúplex a 64kbps (tipo B) y no a 16 kbps (tipo D), que suma en total 144kbs.",
+        "options":
+        [
+            "A. El acceso básico de canales PCM",
+            "B. El acceso primario de las líneas RDSI",
+            "C. El acceso básico de bucle de abonado vía Radio ",
+            "D. El acceso básico de las líneas RDSI",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    }
+]

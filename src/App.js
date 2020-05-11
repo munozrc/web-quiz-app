@@ -13,17 +13,32 @@ import Quiz from './Components/Quiz/Quiz'
 import { REDES, SEMIPROG, HOME } from './Components/variables'
 
 // Import Files
+
+// CARLOS
+import question_p12_redes_01 from './questions/carlos/redes-p12.json'         // REDES
 import question_p13_redes_01 from './questions/carlos/redes-p13.json'
 import question_p14_redes_01 from './questions/carlos/redes-p14.json'
+import question_p15_redes_01 from './questions/carlos/redes-p15.json'
+import question_p16_redes_01 from './questions/carlos/redes-p16.json'
 
-import question_p13_redes_02 from './questions/david/redes-p13.json'
-import question_p14_redes_02 from './questions/david/redes-p13.json'
-
+import question_p12_semiprog_01 from './questions/carlos/semiprog-p12.json'    // SEMIPROG
 import question_p13_semiprog_01 from './questions/carlos/semiprog-p13.json'
 import question_p14_semiprog_01 from './questions/carlos/semiprog-p14.json'
+import question_p15_semiprog_01 from './questions/carlos/semiprog-p15.json'
+import question_p16_semiprog_01 from './questions/carlos/semiprog-p16.json'
 
+// YINER
+import question_p12_redes_02 from './questions/david/redes-p12.json'           // REDES
+import question_p13_redes_02 from './questions/david/redes-p13.json'
+import question_p14_redes_02 from './questions/david/redes-p14.json'
+import question_p15_redes_02 from './questions/david/redes-p15.json'
+import question_p16_redes_02 from './questions/david/redes-p16.json'
+
+import question_p12_semiprog_02 from './questions/david/semiprog-p12.json'     // SEMIPROG
 import question_p13_semiprog_02 from './questions/david/semiprog-p13.json'
-import question_p14_semiprog_02 from './questions/david/semiprog-p13.json'
+import question_p14_semiprog_02 from './questions/david/semiprog-p14.json'
+import question_p15_semiprog_02 from './questions/david/semiprog-p15.json'
+import question_p16_semiprog_02 from './questions/david/semiprog-p16.json'
 
 function App() {
 
@@ -40,25 +55,55 @@ function App() {
         redes: [
           {
             id: 0,
+            text: 'Preguntas #12',
+            file: question_p12_redes_01
+          },
+          {
+            id: 1,
             text: 'Preguntas #13',
             file: question_p13_redes_01
           },
           {
-            id: 1,
+            id: 2,
             text: 'Preguntas #14',
             file: question_p14_redes_01
+          },
+          {
+            id: 3,
+            text: 'Preguntas #15 (quiz on Tuesday)',
+            file: question_p15_redes_01
+          },
+          {
+            id: 4,
+            text: 'Preguntas #16 (quiz on Tuesday)',
+            file: question_p16_redes_01
           }
         ],
         semiprog: [
           {
             id: 0,
+            text: 'Preguntas #12',
+            file: question_p12_semiprog_01
+          },
+          {
+            id: 1,
             text: 'Preguntas #13',
             file: question_p13_semiprog_01
           },
           {
-            id: 1,
+            id: 2,
             text: 'Preguntas #14',
             file: question_p14_semiprog_01
+          },
+          {
+            id: 3,
+            text: 'Preguntas #15 (quiz on Tuesday)',
+            file: question_p15_semiprog_01
+          },
+          {
+            id: 4,
+            text: 'Preguntas #16 (quiz on Tuesday)',
+            file: question_p16_semiprog_01
           }
         ]
       }
@@ -70,25 +115,55 @@ function App() {
         redes: [
           {
             id: 0,
+            text: 'Preguntas #12',
+            file: question_p12_redes_02
+          },
+          {
+            id: 1,
             text: 'Preguntas #13',
             file: question_p13_redes_02
           },
           {
-            id: 1,
+            id: 2,
             text: 'Preguntas #14',
             file: question_p14_redes_02
+          },
+          {
+            id: 3,
+            text: 'Preguntas #15 (quiz on Tuesday)',
+            file: question_p15_redes_02
+          },
+          {
+            id: 4,
+            text: 'Preguntas #16 (quiz on Tuesday)',
+            file: question_p16_redes_02
           }
         ],
         semiprog: [
           {
             id: 0,
+            text: 'Preguntas #12',
+            file: question_p12_semiprog_02
+          },
+          {
+            id: 1,
             text: 'Preguntas #13',
             file: question_p13_semiprog_02
           },
           {
-            id: 1,
+            id: 2,
             text: 'Preguntas #14',
             file: question_p14_semiprog_02
+          },
+          {
+            id: 3,
+            text: 'Preguntas #15 (quiz on Tuesday)',
+            file: question_p15_semiprog_02
+          },
+          {
+            id: 4,
+            text: 'Preguntas #16 (quiz on Tuesday)',
+            file: question_p16_semiprog_02
           }
         ]
       }

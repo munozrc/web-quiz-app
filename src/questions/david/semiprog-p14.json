@@ -1,60 +1,60 @@
 [
     {
-        "question": "No es una de las divisiones o pestañas de la ventana de configuración de la Raspberry Pi.",
+        "question": "Permiten la configuración de las dimensiones de pantalla y la personalización de la terminal de la Raspberry Pi.",
         "options":
         [
-            "A. ystem",
-            "B. Localisation",
-            "C. Menu bar",
-            "D. Performance",
+            "A. Overclock y overscan",
+            "B. Expand screen y terminal_conf",
+            "C. Overscan y framebuffer",
+            "D. Framebuffer y terminal_conf",
             "E. Ninguna es correcta"
         ],
         "answer": 2
     },
     {
-        "question": "Esta característica se realiza automáticamente durante la instalación del SO Raspbian mediante NOOBS dentro de la Raspberry Pi.",
+        "question": "La línea sdt_aspect permite ejercer control sobre:",
         "options":
         [
-            "A. Expand Filesystem",
-            "B. Update all programs",
-            "C. Overclock",
-            "D. Interfaz SSH",
-            "E. Ninguna es correcta"
-        ],
-        "answer": 0
-    },
-    {
-        "question": "la RFC (Request For Comments) establece que debe contener solo letras y números, aunque puede incluir guiones siempre que no estén al principio o al final y no puedan incluir espacios, estas son especificaciones para:",
-        "options":
-        [
-            "A. La contraseña de la Raspberry Pi",
-            "B. El SSID de la red",
-            "C. El hostname de la Raspberry Pi",
-            "D. El username para Administrador de la Raspberry Pi ",
-            "E. Ninguna es correcta"
-        ],
-        "answer": 2
-    },
-    {
-        "question": "Esta iniciativa permite crear un mapa interactivo del mundo, con el fin de ayudar y promover el trabajo colaborativo, en el cual, quienes hacen parte del el, se muestran con una ubicación aproximada de acuerdo a su Raspberry Pi:",
-        "options":
-        [
-            "A. Overscan",
-            "B. Network at boot",
-            "C. boot",
-            "D. Pianywhere",
+            "A. Relación de aspecto de entrada compuesta analógica.",
+            "B. Relación de audio de compuesto.",
+            "C. Modo de relación de la terminal de comandos.",
+            "D. Resolución de las dimensiones de la pantalla.",
             "E. Ninguna es correcta"
         ],
         "answer": 4
     },
     {
-        "question": "Durante el proceso de Overclock, este circuito puede diferir su capacidad de ser overclockeado de una unida a otra, inclusive en el mismo lote.",
+        "question": "El procesador multimedia BCM2835 tiene un diseño de sistema en chip (SoC), que se divide en dos partes, estas son:",
         "options":
         [
-            "A. GPIO port",
-            "B. Capacitor",
-            "C. RAM memory",
-            "D. system-on-chip processor",
+            "A. RAM y GPU",
+            "B. CPU y sdtv",
+            "C. GPU y CPU",
+            "D. CPU y Kernel ",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Esta configuración tiene una evidencia permanente dentro de la Raspberry Pi, así se haya modificado y/o eliminado el archivo config.txt con tal de restablecer o volver a la configuración básica de la placa:",
+        "options":
+        [
+            "A. Overclocking",
+            "B. Overscan",
+            "C. Hdmi_boost",
+            "D. Caché L2",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 4 
+    },
+    {
+        "question": "Dentro de las distribuciones de Linux, que indica específicamente la opción rootfstyle al kernel del sistema operativo Raspbian:",
+        "options":
+        [
+            "A. La capacidad de la RAM de la placa de Raspberry Pi",
+            "B. El sistema de sonido de la placa Raspberry Pi",
+            "C. El modelo de la Placa de Raspberry Pi",
+            "D. El sistema de archivos de la placa de Raspberry Pi",
             "E. Ninguna es correcta"
         ],
         "answer": 3

@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Comando que permite la ejecución del sistema de reproducción de música de la familia BCM 283x en segundo plano, en la terminal (consola) de comandos y no interfiere con las demás tareas o procesos que se estén ejecutando:",
+        "options":
+        [
+            "A. Sudo start xplayer",
+            "B. Start mocp",
+            "C. moc",
+            "D. xplayer st",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Dentro de la instalación del sistema osMC, es recomendable o seguro dejar activo el servicio SSH para la gestión remota solo si la Raspberry Pi:",
+        "options":
+        [
+            "A. Tiene conexión a internet vía wifi.",
+            "B. Tiene conexión a una red de carácter público.",
+            "C. Tiene conexión a una red doméstica segura.",
+            "D. Tiene conexión a internet vía cable Ethernet.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Permite la interconexión entre dispositivos como computadoras personales, dispositivos de electrónica de consumo e inalámbricos, ya sea para servicios en red, compartir datos y entretenimiento.",
+        "options":
+        [
+            "A. Telnet",
+            "B. NFS",
+            "C. UPnP",
+            "D. SMB ",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Estándar de red que es común en los servidores UNIX-based systems, que permite realizar la conexión con el osMC y dar acceso a diferentes contenidos.",
+        "options":
+        [
+            "A. Zeroconf",
+            "B. Server Message Block (SMB)",
+            "C. Network-attached storage (NAS)",
+            "D. Network File System (NFS)",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Permite los diversos archivos de registro de funcionalidad e informe de errores del sistema se carguen en los servidores del proyecto.",
+        "options":
+        [
+            "A. LogUploader",
+            "B. Remotes",
+            "C. Services",
+            "D. Network Community",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    }
+]

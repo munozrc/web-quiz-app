@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Aspecto que se debe tener en cuenta para dar inicio a la configuración del Firewall Bactrack:",
+        "options":
+        [
+            "A. El tipo de cableado de la red",
+            "B. El número de interfaces de red",
+            "C. El número de servidores a usar",
+            "D. La velocidad de conexión a internet",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Cuando se está configurando las diferentes máquinas virtuales, es importante que los nombres de cada una, en la sección de red sean los mismos dependiendo sus características, ya que esto me permite:",
+        "options":
+        [
+            "A. Saber diferenciar cada máquina virtual ",
+            "B. Poder acceder a Internet ",
+            "C. Poder conectarme a una red interna",
+            "D. Dar acceso a una red externa ",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Si deseo agregar una interfaz de red dentro de la terminal de comandos de Bactrack, que se debe tener en cuenta:",
+        "options":
+        [
+            "A. El sistema operativo y la IP de dispositivo",
+            "B. Dirección IP, máscara de red y MAC del router ",
+            "C. Dirección IP del del ISP y la máscara de red",
+            "D. La dirección IP y la máscara de red",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Porque es importante crear una DMZ y cerrar el acceso a la red privada (LAN).",
+        "options":
+        [
+            "A. Para evitar hacer ping de una red a otra",
+            "B. Para no comprometer información",
+            "C. Para evitar las peticiones de ftp y http desde internet.",
+            "D. Para mejorar la conectividad en la LAN",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Para probar el servicio de peticiones http es recomendable hacerlo desde un navegador que este fuera del servicio de VirtualBox, porque así:",
+        "options":
+        [
+            "A. Se verifica que el todo el tráfico se redirecciona al servidor ftp.",
+            "B. Se verifica que hay conexión a Internet",
+            "C. Se comprueba que el firewall esta bloqueando el tráfico de internet.",
+            "D. Se verifica que las peticiones son corruptas.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 4
+    }
+]

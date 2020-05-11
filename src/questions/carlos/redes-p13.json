@@ -1,62 +1,62 @@
 [
     {
-        "question": "El modo más elemental para establecer un enlace temporal a larga distancia es utilizando:",
+        "question": "Ataque de seguridad que su finalidad es analizar el tráfico de un red.",
         "options":
         [
-            "A. Una línea HDSL.",
-            "B. Una línea telefónica de la RTB. ",
-            "C. Una línea telefónica de la IDSL.",
-            "D. a y b son correctas",
+            "A. Snooping.",
+            "B. Spoofing.",
+            "C. Data diddling.",
+            "D. Packet Sniffing.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Los problemas de seguridad se plantean en tres áreas principales. El área donde hay que proteger los datos frente a escuchas mediante criptografía se denomina:",
+        "options":
+        [
+            "A. La seguridad de perímetro.",
+            "B. La seguridad en el canal.",
+            "C. La seguridad de acceso",
+            "D. a y b son correctas.",
             "E. Ninguna es correcta"
         ],
         "answer": 1
     },
     {
-        "question": "Para el acceso de banda ancha a internet a través de la propia red eléctrica, se utiliza un módem:",
+        "question": "Son un componente básico de la mayor parte de los cortafuegos. Pueden ser un router comercial o basado en un ordenador convencional, con la capacidad para filtrar paquetes. (Trabajan a nivel de red):",
         "options":
         [
-            "A. Modem PLC.",
-            "B. Módem DSL.",
-            "C. Modem ADSL.",
-            "D. Ningún tipo de modem.",
-            "E. Ninguna es correcta"
-        ],
-        "answer": 0
-    },
-    {
-        "question": "Una alternativa más económica que la contratación de circuitos virtuales, es la utilización de:",
-        "options":
-        [
-            "A. Módems ADSL.",
-            "B. Módems DSL.",
-            "C. VPNs.",
-            "D. Par trenzado.",
+            "A. Bastión Host.",
+            "B. Host con doble conexión (Dual-Homed Host).",
+            "C. Encaminador con filtrado.",
+            "D. Cortafuegos mediante filtrado de host (Screen Router).",
             "E. Ninguna es correcta"
         ],
         "answer": 2
     },
     {
-        "question": "Si un usuario desea tener acceso a una red de datos como Internet, barata, con un ancho de banda aceptable y que no impida el uso independiente del teléfono. es posible mediante:",
+        "question": "Permiten a los usuarios autorizados acceder a los recursos que de otro modo serían inaccesibles. En otras palabras, pueden bloquear el sitio FTP al exterior, a los usuarios de internet y permitir que los usuarios de su intranet se conecten a él desde sus casas.",
         "options":
         [
-            "A. Fibra óptica.",
-            "B. Un módem ADSL.",
-            "C. Conexión gigabit Ethernet.",
-            "D. Conexión fibra óptica.",
-            "E. Ninguna es correcta"
-        ],
-        "answer": 1
-    },
-    {
-        "question": "La tecnología que es ofertada por las compañías de televisión por cable como alternativa al acceso a la red Internet y, por lo tanto, permite establecer conexiones peer to peer a través de enlaces privados virtuales es:",
-        "options":
-        [
-            "A. Cablemódem.",
-            "B. Líneas RDSI.",
-            "C. Fibra óptica.",
-            "D. Coaxial.",
+            "A. Túneles en Cortafuegos.",
+            "B. Firewall Modificado.",
+            "C. Router con permisos.",
+            "D. protocolo UDP.",
             "E. Ninguna es correcta"
         ],
         "answer": 0
+    },
+    {
+        "question": "La capa de transporte se puede utilizar un protocolo que cifra el campo de datos de cada segmento que envía:",
+        "options":
+        [
+            "A. SSH",
+            "B. PING",
+            "C. Packet",
+            "D. TPDU",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
     }
 ]

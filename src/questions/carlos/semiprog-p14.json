@@ -1,62 +1,62 @@
 [
     {
-        "question": "Proporciona una forma de usar el terminal de Pi a través de una red, creando una conexión encriptada entre el Pi y cualquier otra computadora.",
+        "question": "Al realizar la instalación de Sistema operativo Raspbian con la herramienta “NOOBS software”, nos permite editar la configuración.",
         "options":
         [
-            "A. SSH",
-            "B. FTP",
-            "C. UDP",
-            "D. VLAN",
+            "A. No, solo si realizamos la instalación manual.",
+            "B. Sí, pero es limitada.",
+            "C. No, tampoco es posible si realizamos la instalación manual.",
+            "D. Si, al igual que si realizamos la instalación manual.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Si tenemos problemas con el renderizado de la imagen en nuestra pantalla, podemos determinar cuántos píxeles saltar desde el borde de la pantalla y así logramos que la imagen se mueva así adentro. Esto de determina con.",
+        "options":
+        [
+            "A. overscan_left, overscan_right ,overscan_top, overscan_bottom",
+            "B. pixel_left, pixel_right ,pixel_top, pixel_bottom",
+            "C. no es posible solucionar",
+            "D. overscan_pixelout",
             "E. Ninguna es correcta"
         ],
         "answer": 0
     },
     {
-        "question": "Es un estándar de comunicaciones utilizado por Raspberry Pi  para comunicarse con el hardware externo a través del puerto GPIO.",
+        "question": "La forma más adecuada para controlar la carga del kernel de linux.",
         "options":
         [
-            "A. FTP",
-            "B. La interfaz periférica en serie (SPI) ",
-            "C. TCP/IP",
-            "D. GPI",
+            "A. No es posible.",
+            "B. mediante un archivo separado llamado cmdline.txt",
+            "C. solo editando el archivo config.txt",
+            "D. en la instalación.",
             "E. Ninguna es correcta"
         ],
         "answer": 1
     },
     {
-        "question": "Se refiere al proceso de ejecutar un dispositivo a una velocidad superior a la prevista por sus fabricantes.",
+        "question": "El procesador multimedia BCM2835 en el corazón del Pi es un diseño de sistema en chip (SoC) la parte encargada de realizar renderizado en 2D y 3D es:",
         "options":
         [
-            "A. Clocking",
-            "B. Benchmark",
-            "C. Overclocking",
-            "D. DRAM",
-            "E. Ninguna es correcta"
-        ],
-        "answer": 2
-    },
-    {
-        "question": "Por defecto cuánta memoria está reservada para el uso de la GPU en Raspberry Pi.",
-        "options":
-        [
-            "A. 1GB",
-            "B. 128MB",
-            "C. 512MB",
-            "D. 16MB",
+            "A. CPU",
+            "B. GPU",
+            "C. Gráfica",
+            "D. a y b son correctas",
             "E. Ninguna es correcta"
         ],
         "answer": 1
     },
     {
-        "question": "Las radios Wi-Fi (wifi country) pueden transmitir en frecuencias particulares, que se dividen en más pequeñas. Es importante configurar este apartado ya que:",
+        "question": "Para establecer la frecuencia de reloj central de la porción de CPU del BCM2835, debemos editar la configuración de:",
         "options":
         [
-            "A. su uso están regulados y varía de país en país.",
-            "B. No es importante.",
-            "C. Sin el el wifi no funciona.",
-            "D. La conexión por wi-fi se pierda.",
+            "A. cpu_freq",
+            "B. gpu_freq",
+            "C. overclock_freq",
+            "D. arm_freq",
             "E. Ninguna es correcta"
         ],
-        "answer": 0
+        "answer": 3
     }
 ]

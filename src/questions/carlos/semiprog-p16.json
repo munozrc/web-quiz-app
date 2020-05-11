@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Las prestaciones que nos brinda una Raspberry Pi, son:",
+        "options":
+        [
+            "A. Bajas pero son compensadas por el poco consumo energético.",
+            "B. Altas las ideales para workshops especializadas.",
+            "C. Altas ideales para ambientes industriales.",
+            "D. Bajas, pero con el consumo de una máquina de mejores prestaciones.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "¿La memoria en una Raspberry Pi puede ser administrada?",
+        "options":
+        [
+            "A. No.",
+            "B. Si, podemos determinar la cantidad reservada para CPU y GPU.",
+            "C. No, la Raspberry Pi no posee esta propiedad.",
+            "D. Sí, pero es un proceso que no soporta por defecto.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "¿Podemos configurar un almacenamiento en la nube y acceder a dichos archivos desde nuestra Raspberry Pi?",
+        "options":
+        [
+            "A. No. solo podemos almacenar de forma local en la memoria SD.",
+            "B. No es necesario porque la Raspberry Pi cuenta con poder de procesamiento.",
+            "C. Si, así podemos trabajar en tareas más complejas sin sacrificar los recursos de nuestra Raspberry Pi.",
+            "D. a y b son correctas.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Una de las ventajas del Software basados en la nube, aparte de almacenamiento es:",
+        "options":
+        [
+            "A. Que no aloja de forma local los archivos.",
+            "B. La presentación de estos será igual independientemente del dispositivo que usemos.",
+            "C. Evita cargar archivos al iniciar la máquina.",
+            "D. b y c son correctas.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Si no queremos usar los servicios cloud como Google Docs, nuestra siguiente alternativa es:",
+        "options":
+        [
+            "A. Usar la suite de LibreOffice.",
+            "B. Usar Software de Gimp.",
+            "C. No hay más alternativas.",
+            "D. Usar ThinkFree Online.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    }
+]

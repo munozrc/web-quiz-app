@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Cuantos tipos de direccionamiento podemos encontrar:",
+        "options":
+        [
+            "A. Unicast.",
+            "B. Unicast, Multicast.",
+            "C. Solo Broadcast",
+            "D. Unicast, Multicast, Broadcast",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "El control de acceso al medio es importante porque:",
+        "options":
+        [
+            "A. su objetivo es reducir las colisiones entre los paquetes",
+            "B. la seguridad de los datos de la red",
+            "C. cuida la llegada de los paquetes al destino",
+            "D. brinda seguridad en el canal",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "El bus de campo AS-i que tipo de topología puede adoptar.",
+        "options":
+        [
+            "A. Bus",
+            "B. Árbol",
+            "C. Estrella",
+            "D. Anillo, Bus, Árbol, Estrella",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "CAN se define por:",
+        "options":
+        [
+            "A. Bus de comunicaciones serie.",
+            "B. Bus de datos de alta velocidad",
+            "C. Bus de sensores y actuadores",
+            "D. a y b son correctos",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "CAD/CAM/CAE están ubicados en el nivel de:",
+        "options":
+        [
+            "A. Supervisión",
+            "B. Planeación",
+            "C. Planificación",
+            "D. Política de producción",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    }
+]

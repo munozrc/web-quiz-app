@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Cómo podemos lograr que un firewall funcione como un enrutador.",
+        "options":
+        [
+            "A. No es posible.",
+            "B. echo 1 >> router = on",
+            "C. echo 1 > /proc/sys/net/ipv4/ip_forward",
+            "D. b y c son correctos.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Con cuántas interfaces de red contaba el firewall que utilizaron en el video.",
+        "options":
+        [
+            "A. 3 interfaces de red",
+            "B. 2 interfaces de red",
+            "C. 4 interfaces de red",
+            "D. 1 interfaces de red",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Cuáles son los puertos que deja abiertos en el servidor HTTP",
+        "options":
+        [
+            "A. 1 - 1024",
+            "B. 8080.",
+            "C. 80 y 443",
+            "D. 81 y 450",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qué protocolo define cuando crea la regla en el firewall para dejar abierto el puerto 21 (conexión SSH) en el servidor FTP.",
+        "options":
+        [
+            "A. UTP",   
+            "B. UDP",
+            "C. IP",
+            "D. HTTP",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Porque es necesario crear un script aparte donde contenga todas las reglas del firewall.",
+        "options":
+        [
+            "A. las reglas son eliminadas cada cierto tiempo",
+            "B. no es necesario crear este archivo.",
+            "C. las reglas creadas deben ser cargadas cada vez que inicie la máquina",
+            "D. el firewall hace limpieza de reglas",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    }
+]

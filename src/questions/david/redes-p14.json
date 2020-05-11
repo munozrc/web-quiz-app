@@ -1,60 +1,60 @@
 [
     {
-        "question": "Dentro de este tipo de ataque, además de interceptar el tráfico de red, el atacante captura los datos y otra información guardada, que en la mayoría de los casos esta se encuentra en el PC de la víctima.",
+        "question": "Dentro de las opciones de la configuración de ufw del firewall de iptables en Ubuntu, el comando Gufw permite:",
         "options":
         [
-            "A. Eavesdropping",
-            "B. Packet Sniffing",
-            "C. spoofing",
-            "D. keylogger",
+            "A. Listar reglas predeterminadas del firewall",
+            "B. Crear una nueva regla para el firewall",
+            "C. Eliminar y reiniciar la configuración del firewall",
+            "D. Listar puertos bloqueados por el firewall",
             "E. Ninguna es correcta"
         ],
         "answer": 4
     },
     {
-        "question": "El cambio frecuente de las contraseñas asociadas a cuentas personales o datos empresariales, y que, a su vez, estas mismas no deben estar relacionadas con el entorno de las personas, es una práctica que previene:",
+        "question": "Sintaxis correcta para permitir reglas específicas con el sistema ufw en el Firewall:",
         "options":
         [
-            "A. El snooping",
-            "B. El Land attack",
-            "C. El Cracking",
-            "D. El Winnuke",
+            "A. Sudo ufw allow <protocol>",
+            "B. Sudo nano ufw allow <port> / <optional: port>",
+            "C. Sudo ufw allow <port> / <optional:protocol>",
+            "D. Sudo ufw allow <protocol> / <optional:port>",
             "E. Ninguna es correcta"
         ],
         "answer": 2
     },
     {
-        "question": "Áreas de seguridad que una empresa debe tener en cuenta cuando da acceso a usuarios desde el exterior a sus propias redes internas:",
+        "question": "Dentro de la interpretación de las entradas de registro, esta propiedad indica la IP de destino, es decir, quien debe recibir el paquete:",
         "options":
         [
-            "A. Perímetro, canal, firewall",
-            "B. Perímetro, criptografía y acceso interno",
-            "C. Canal y acceso interno",
-            "D. Perímetro, acceso y criptografía ",
+            "A. SRC",
+            "B. OUT/SPT",
+            "C. PREC/RES",
+            "D. DST ",
             "E. Ninguna es correcta"
         ],
-        "answer": 4
+        "answer": 3
     },
     {
-        "question": "Dentro de los tipos de Firewalls, cuando se habla de que “todo lo que no es expresamente prohibido está permitido” hace referencia a que:",
+        "question": "Conjunto de Hooks (cadenas o ganchos) que dentro del kernel de Linux, permiten a los módulos del kernel registrar funciones callbacks con la pila de red.",
         "options":
         [
-            "A. Se bloquea el tráfico y Los servicios se deben activar de forma individual.",
-            "B. Se deben predecir el tipo de acciones que los usuarios pueden realizar y preparar defensas contra ellas. ",
-            "C. Se debe priorizar la facilidad de uso que la seguridad",
-            "D. Conocer todos los posibles agujeros de seguridad posibles existentes en los protocolos.",
+            "A. Icmp.",
+            "B. netfiltes",
+            "C. Ufw.",
+            "D. Tcp_filtrer",
             "E. Ninguna es correcta"
         ],
         "answer": 1
     },
     {
-        "question": "En el área de seguridad en el canal, es una técnica que permite proteger el secreto de los datos y también permite la identificación de los remitentes o destinatarios.",
+        "question": "La línea: Whois (ip_publica_página_web) | grep CIDR, se usa cuando:",
         "options":
         [
-            "A. El criptoanálisis",
-            "B. La auditoria",
-            "C. La criptografía",
-            "D. La autentificación ",
+            "A. Se desea bloquear el acceso interno",
+            "B. Para desbloquear un servicio",
+            "C. Para prevenir el acceso a dicho dominio",
+            "D. Abrir un puerto específico para el dominio",
             "E. Ninguna es correcta"
         ],
         "answer": 2

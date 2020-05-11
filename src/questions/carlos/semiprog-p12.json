@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Para configurar la conexión una red cableada por medio de la consola, se debe usar el comando.",
+        "options":
+        [
+            "A. sudo nano /etc/dhcpcd",
+            "B. sudo nano /etc/dhcpcd.conf",
+            "C. sudo nano /etc/dhcp.conf",
+            "D. sudo nano",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "(DHCPCD) hace referencia a:",
+        "options":
+        [
+            "A. Protocolo de configuración de host dinámico.",
+            "B. Protocolo de configuración de host.",
+            "C. Protocolo de configuración de host dinámico cliente daemon.",
+            "D. Host dinámico cliente daemon.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "El comando iwlist es usado para:",
+        "options":
+        [
+            "A. Configurar la seña de un AP.",
+            "B. Buscar puntos de acceso inalámbrico cercanos.",
+            "C. Crear un AP.",
+            "D. Denegar un AP.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "La configuración actual del adaptador para Listo para enviar y Borrar para enviar. Apretón de manos, utilizado en redes ocupadas para evitar colisiones. Esto normalmente lo establece el punto de acceso en la conexión.",
+        "options":
+        [
+            "A. RTS",
+            "B. Fragment",
+            "C. Tx-power",
+            "D. Retry",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "La configuración de redes inalámbricas en el Pi se maneja usando una herramienta llamada:",
+        "options":
+        [
+            "A. wpaclient.",
+            "B. wpasupplicant.",
+            "C. ifap.",
+            "D. connect-network.conf",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    }
+]

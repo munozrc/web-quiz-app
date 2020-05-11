@@ -1,0 +1,62 @@
+[
+    {
+        "question": "En el caso de que queramos instalar un Reproductor de música en consola, pero ya este instalada una herramienta llamada moc, al igual que el reproductor, que debemos hacer:",
+        "options":
+        [
+            "A. Desinstalar dicha herramienta.",
+            "B. Instalar otra distribución que no contenga esta herramienta.",
+            "C. No instalar el reproductor.",
+            "D. Sustituir mocp como el nombre del paquete.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Si instalamos una distribución OSMC, esta nos permite:",
+        "options":
+        [
+            "A. Convertir nuestra Raspberry Pi en un centro multimedia.",
+            "B. Acelerar los gráficos de las Raspberry Pi.",
+            "C. Aprovechar todo el poder de la CPU.",
+            "D. Convertir nuestra Raspberry Pi en un servidor web.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Si usamos una única SD como almacenamiento principal, e instalamos OSMC desde NOOBS, debemos tener en cuenta:",
+        "options":
+        [
+            "A. La capacidad de la memoria SD",
+            "B. La instalación borrará todos los datos existentes, para instalar el nuevo sistema.",
+            "C. La instalación tomará cierto tiempo",
+            "D. a y c son correctas.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Cuál es el estándar de reproducción que soporta por defectos los OSMC",
+        "options":
+        [
+            "A. UPnP",
+            "B. DLNA",
+            "C. Reproducción desde (NAS)",
+            "D. No soporta ningún estándar por defecto.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Las distribuciones OSMC permiten conexión SSH.",
+        "options":
+        [
+            "A. No.",
+            "B. Si, mediante la opción de “services” podemos habilitarla.",
+            "C. No esta opción está desactivada.",
+            "D. Debemos instalar un complemento para habilitarla.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    }
+]

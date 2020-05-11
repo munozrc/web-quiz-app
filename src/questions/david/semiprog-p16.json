@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Se trabaja de manera remota, el almacenamiento, la accesibilidad y la capacidad de procesamiento de la información depende del servidor:",
+        "options":
+        [
+            "A. Local-based software",
+            "B. Cloud-based services",
+            "C. Cloud-based software",
+            "D. Cloud-based remote web ",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Suite ofimática basada en la nube con características centradas en los negocios, con conocimiento basado en la wiki, conferencias y gestión financiera.",
+        "options":
+        [
+            "A. Google Docs (Google drive)",
+            "B. Office 365 (Microsoft office)",
+            "C. Zoho",
+            "D. ThinkFree Online",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Permite aprovechar y hacer uso óptimo de todas las funcionalidades de suites de productividad basadas en la web.",
+        "options":
+        [
+            "A. Opera open source",
+            "B. Chromium",
+            "C. Mozilla Firefox",
+            "D. Tor Browser",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "libreOffice Draw es una opción para el manejo de ilustración y dibujos escalables, pero esta, no se puede usar para retocar fotografías digitales como lo hace el programa Gimp, debido a que:",
+        "options":
+        [
+            "A. No tiene soporte para fotografía",
+            "B. No tiene suficientes formatos de trabajo",
+            "C. La capacidad de procesamiento es menor",
+            "D. No maneja imágenes de mapa de bits",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Al guardar archivos de Gimp, existe el formato XCF que permite regresar la archivo y continuar con la edición, además de:",
+        "options":
+        [
+            "A. Mantener metadatos",
+            "B. Eliminar capas innecesarias",
+            "C. Minimizar la calidad de la imagen",
+            "D. Ser compatible con otros programas",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    }
+]

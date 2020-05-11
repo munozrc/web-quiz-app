@@ -1,62 +1,62 @@
 [
     {
-        "question": "Son ejemplos de medios de trasmisión que, desde el punto de vista del usuario, le permiten la conexión con otros usuarios o a redes públicas utilizando un protocolo.",
+        "question": "Dentro de este tipo de ataque, además de interceptar el tráfico de red, el atacante captura los datos y otra información guardada, que en la mayoría de los casos esta se encuentra en el PC de la víctima.",
         "options":
         [
-            "A. RDSI /RGB",
-            "B. RDSI/RTX",
-            "C. SMTP/RSB",
-            "D. RDSI/RTB",
+            "A. Eavesdropping",
+            "B. Packet Sniffing",
+            "C. spoofing",
+            "D. keylogger",
             "E. Ninguna es correcta"
         ],
-        "answer": 3
+        "answer": 4
     },
     {
-        "question": "Como suele ser la velocidad de la línea de transmisión que permite la unión de un usuario a la red dentro de circuitos virtuales permanentes.",
+        "question": "El cambio frecuente de las contraseñas asociadas a cuentas personales o datos empresariales, y que, a su vez, estas mismas no deben estar relacionadas con el entorno de las personas, es una práctica que previene:",
         "options":
         [
-            "A. Debe ser igual al ancho de banda contratado",
-            "B. Debe ser superior al ancho de banda disponible",
-            "C. Debe ser superior al ancho de banda contratado",
-            "D. Debe ser igual al ancho de banda del ISP",
+            "A. El snooping",
+            "B. El Land attack",
+            "C. El Cracking",
+            "D. El Winnuke",
             "E. Ninguna es correcta"
         ],
         "answer": 2
     },
     {
-        "question": "En el modo de transmisión elemental conocido como RTB, para establecer un enlace, se hace por medio de la marcación del número del abonado del destino, lo anterior se realiza mediante el proceso de:",
+        "question": "Áreas de seguridad que una empresa debe tener en cuenta cuando da acceso a usuarios desde el exterior a sus propias redes internas:",
         "options":
         [
-            "A. La conmutación de números",
-            "B. La conmutación de paquetes",
-            "C. La conmutación de señales",
-            "D. La conmutación de circuitos ",
+            "A. Perímetro, canal, firewall",
+            "B. Perímetro, criptografía y acceso interno",
+            "C. Canal y acceso interno",
+            "D. Perímetro, acceso y criptografía ",
             "E. Ninguna es correcta"
         ],
-        "answer": 3
+        "answer": 4
     },
     {
-        "question": "Dentro de la tecnología Cablemódem, el medio de trasmisión que se utiliza para conectar las centrales de trasmisión con los distribuidores de zona, es:",
+        "question": "Dentro de los tipos de Firewalls, cuando se habla de que “todo lo que no es expresamente prohibido está permitido” hace referencia a que:",
         "options":
         [
-            "A. Cable UTP",
-            "B. Fibra óptica",
-            "C. Cable coaxial",
-            "D. Radiofrecuencias ",
+            "A. Se bloquea el tráfico y Los servicios se deben activar de forma individual.",
+            "B. Se deben predecir el tipo de acciones que los usuarios pueden realizar y preparar defensas contra ellas. ",
+            "C. Se debe priorizar la facilidad de uso que la seguridad",
+            "D. Conocer todos los posibles agujeros de seguridad posibles existentes en los protocolos.",
             "E. Ninguna es correcta"
         ],
         "answer": 1
     },
     {
-        "question": "Acceso que cconsiste en dos canales full-dúplex a 64kbps (tipo B) y no a 16 kbps (tipo D), que suma en total 144kbs.",
+        "question": "En el área de seguridad en el canal, es una técnica que permite proteger el secreto de los datos y también permite la identificación de los remitentes o destinatarios.",
         "options":
         [
-            "A. El acceso básico de canales PCM",
-            "B. El acceso primario de las líneas RDSI",
-            "C. El acceso básico de bucle de abonado vía Radio ",
-            "D. El acceso básico de las líneas RDSI",
+            "A. El criptoanálisis",
+            "B. La auditoria",
+            "C. La criptografía",
+            "D. La autentificación ",
             "E. Ninguna es correcta"
         ],
-        "answer": 3
+        "answer": 2
     }
 ]

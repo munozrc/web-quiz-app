@@ -1,62 +1,62 @@
 [
     {
-        "question": "Modelo de Raspberry Pi que no es necesario conectar un conector USB Ethernet o Wifi dongle para dotar de conexión a la placa.",
+        "question": "No es una de las divisiones o pestañas de la ventana de configuración de la Raspberry Pi.",
         "options":
         [
-            "A. Raspberry Pi A+",
-            "B. Raspberry Pi B1+",
-            "C. Raspberry Pi Zero",
-            "D. Raspberry Pi A",
-            "E. Ninguna es correcta"
-        ],
-        "answer": 4
-    },
-    {
-        "question": "Comando que me permite acceder a la configuración de la red cableada a través de la consola de la Raspberry Pi:",
-        "options":
-        [
-            "A. sudo ifconfig",
-            "B. sudo nano /networking.config",
-            "C. sudo /dhcpcd.config",
-            "D. sudo nano /etc/dhcp.config",
-            "E. Ninguna es correcta"
-        ],
-        "answer": 4
-    },
-    {
-        "question": "Al momento de la configuración de las redes inalámbricas de la Raspberry Pi, es importante saber el SSID de una red, el cual representa:",
-        "options":
-        [
-            "A. La encriptación de la contraseña",
-            "B. El estándar de comunicación",
-            "C. El nombre de la red ",
-            "D. El canal de la red",
+            "A. ystem",
+            "B. Localisation",
+            "C. Menu bar",
+            "D. Performance",
             "E. Ninguna es correcta"
         ],
         "answer": 2
     },
     {
-        "question": "Comando dentro de la consola de la Raspberry Pi que permite listar las redes Wifi disponibles junto con sus detalles. ",
+        "question": "Esta característica se realiza automáticamente durante la instalación del SO Raspbian mediante NOOBS dentro de la Raspberry Pi.",
         "options":
         [
-            "A. sudo iflist scan | list",
-            "B. sudo iwlist scan",
-            "C. iwlist scan | list scan",
-            "D. sudo iwlist scan | less",
-            "E. Ninguna es correcta"
-        ],
-        "answer": 3
-    },
-    {
-        "question": "Es una de las secciones que se muestran en la salida de el comando iwconfig, que se utiliza en redes ocupadas para evitar colisiones. ",
-        "options":
-        [
-            "A. RTS (RTS/CTS)",
-            "B. Access Point (AP)",
-            "C. ESSID",
-            "D. Retry",
+            "A. Expand Filesystem",
+            "B. Update all programs",
+            "C. Overclock",
+            "D. Interfaz SSH",
             "E. Ninguna es correcta"
         ],
         "answer": 0
+    },
+    {
+        "question": "la RFC (Request For Comments) establece que debe contener solo letras y números, aunque puede incluir guiones siempre que no estén al principio o al final y no puedan incluir espacios, estas son especificaciones para:",
+        "options":
+        [
+            "A. La contraseña de la Raspberry Pi",
+            "B. El SSID de la red",
+            "C. El hostname de la Raspberry Pi",
+            "D. El username para Administrador de la Raspberry Pi ",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Esta iniciativa permite crear un mapa interactivo del mundo, con el fin de ayudar y promover el trabajo colaborativo, en el cual, quienes hacen parte del el, se muestran con una ubicación aproximada de acuerdo a su Raspberry Pi:",
+        "options":
+        [
+            "A. Overscan",
+            "B. Network at boot",
+            "C. boot",
+            "D. Pianywhere",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Durante el proceso de Overclock, este circuito puede diferir su capacidad de ser overclockeado de una unida a otra, inclusive en el mismo lote.",
+        "options":
+        [
+            "A. GPIO port",
+            "B. Capacitor",
+            "C. RAM memory",
+            "D. system-on-chip processor",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
     }
 ]

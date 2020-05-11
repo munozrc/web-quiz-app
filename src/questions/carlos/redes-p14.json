@@ -1,60 +1,60 @@
 [
     {
-        "question": "Ataque de seguridad que su finalidad es analizar el tráfico de un red.",
+        "question": "para permitir paquetes tcp y udp entrantes en el puerto 53",
         "options":
         [
-            "A. Snooping.",
-            "B. Spoofing.",
-            "C. Data diddling.",
-            "D. Packet Sniffing.",
+            "A. sudo ufw allow 53 / tcp",
+            "B. sudo ufc allow 53",
+            "C. sudo ufw allow 53 / udp",
+            "D. sudo ufw allow 53",
             "E. Ninguna es correcta"
         ],
         "answer": 3
     },
     {
-        "question": "Los problemas de seguridad se plantean en tres áreas principales. El área donde hay que proteger los datos frente a escuchas mediante criptografía se denomina:",
+        "question": "Para eliminar una regla, simplemente prefija la regla original con eliminar. Por ejemplo, si la regla original era",
         "options":
         [
-            "A. La seguridad de perímetro.",
-            "B. La seguridad en el canal.",
-            "C. La seguridad de acceso",
+            "A. sudo ufw allow 53",
+            "B. sudo ufw delete deny 80 / tcp",
+            "C. sudo ufw deny 53 / tcp",
             "D. a y b son correctas.",
             "E. Ninguna es correcta"
         ],
         "answer": 1
     },
     {
-        "question": "Son un componente básico de la mayor parte de los cortafuegos. Pueden ser un router comercial o basado en un ordenador convencional, con la capacidad para filtrar paquetes. (Trabajan a nivel de red):",
+        "question": "para permitir paquetes desde 207.46.232.182:",
         "options":
         [
-            "A. Bastión Host.",
-            "B. Host con doble conexión (Dual-Homed Host).",
-            "C. Encaminador con filtrado.",
-            "D. Cortafuegos mediante filtrado de host (Screen Router).",
+            "A. Sudo ufw allow",
+            "B. Sudo ufw allow all",
+            "C. sudo ufw allow from 207.46.232.182",
+            "D. sudo ufw allow 207.46.232.182",
             "E. Ninguna es correcta"
         ],
         "answer": 2
     },
     {
-        "question": "Permiten a los usuarios autorizados acceder a los recursos que de otro modo serían inaccesibles. En otras palabras, pueden bloquear el sitio FTP al exterior, a los usuarios de internet y permitir que los usuarios de su intranet se conecten a él desde sus casas.",
+        "question": "Mostrando el estado de nuestro firewall",
         "options":
         [
-            "A. Túneles en Cortafuegos.",
-            "B. Firewall Modificado.",
-            "C. Router con permisos.",
-            "D. protocolo UDP.",
+            "A. iptables -L -n -v",
+            "B. sudo iptabless",
+            "C. sudo iptables show all",
+            "D. iptables show",
             "E. Ninguna es correcta"
         ],
         "answer": 0
     },
     {
-        "question": "La capa de transporte se puede utilizar un protocolo que cifra el campo de datos de cada segmento que envía:",
+        "question": "Comando para guardar las reglas de un firewall",
         "options":
         [
-            "A. SSH",
-            "B. PING",
-            "C. Packet",
-            "D. TPDU",
+            "A. Sudo save iptables",
+            "B. Iptables save",
+            "C. Ifconfig save iptables",
+            "D. service iptables save",
             "E. Ninguna es correcta"
         ],
         "answer": 3

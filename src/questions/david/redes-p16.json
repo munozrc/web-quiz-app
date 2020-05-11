@@ -1,0 +1,62 @@
+[
+    {
+        "question": "Como podemos conseguir el trabajo en conjunto de diferentes equipos y fabricantes dentro de una misma red y la determinación del tipo de información que viajará por la red.",
+        "options":
+        [
+            "A. Debe usarse equipos de un solo fabricante",
+            "B. Debe usarse el mismo tipo de software en red",
+            "C. Debe crearse la óptima topología de red",
+            "D. Debe usarse protocolos abiertos disponibles",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "En este tipo de red, no hay dependencia de funcionalidad entre nodos; aquí cada nodo envía mensajes de su estado y los demás cambian su estado en función de la nueva información:",
+        "options":
+        [
+            "A. Redes basadas en control de nodos ",
+            "B. Redes basadas en supervisión de nodos",
+            "C. Redes basadas en estado",
+            "D. Redes basadas en comandos",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "La monitorización de la red y la capacidad de diagnóstico son puntos básicos en la seguridad de una red frente a fallos del sistema y averías, esto se debe tener en cuenta para:",
+        "options":
+        [
+            "A. Redes de mantenimiento",
+            "B. Redes de acceso interno",
+            "C. Redes de comandos",
+            "D. Redes orientadas a estado",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "Permite no solo la comunicación bidireccional entre dispositivos de campo y los sistemas de control, también entre los propios dispositivos de campo ofreciendo mayor flexibilidad al usuario en el diseño del sistema.",
+        "options":
+        [
+            "A. Profibus",
+            "B. Los buses de campo",
+            "C. Interbus",
+            "D. Las redes MINI-MAP",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "En este bus de campo, las líneas de envío y recepción de datos están contenidas dentro de un mismo cable que une todos los dispositivos (aspecto de un bus/árbol).",
+        "options":
+        [
+            "A. AS-i",
+            "B. FIB",
+            "C. CAN",
+            "D. PROFIBUS",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 4
+    }
+]

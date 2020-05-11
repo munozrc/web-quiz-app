@@ -1,62 +1,62 @@
 [
     {
-        "question": "Para configurar la conexión una red cableada por medio de la consola, se debe usar el comando.",
+        "question": "Proporciona una forma de usar el terminal de Pi a través de una red, creando una conexión encriptada entre el Pi y cualquier otra computadora.",
         "options":
         [
-            "A. sudo nano /etc/dhcpcd",
-            "B. sudo nano /etc/dhcpcd.conf",
-            "C. sudo nano /etc/dhcp.conf",
-            "D. sudo nano",
-            "E. Ninguna es correcta"
-        ],
-        "answer": 1
-    },
-    {
-        "question": "(DHCPCD) hace referencia a:",
-        "options":
-        [
-            "A. Protocolo de configuración de host dinámico.",
-            "B. Protocolo de configuración de host.",
-            "C. Protocolo de configuración de host dinámico cliente daemon.",
-            "D. Host dinámico cliente daemon.",
-            "E. Ninguna es correcta"
-        ],
-        "answer": 2
-    },
-    {
-        "question": "El comando iwlist es usado para:",
-        "options":
-        [
-            "A. Configurar la seña de un AP.",
-            "B. Buscar puntos de acceso inalámbrico cercanos.",
-            "C. Crear un AP.",
-            "D. Denegar un AP.",
-            "E. Ninguna es correcta"
-        ],
-        "answer": 1
-    },
-    {
-        "question": "La configuración actual del adaptador para Listo para enviar y Borrar para enviar. Apretón de manos, utilizado en redes ocupadas para evitar colisiones. Esto normalmente lo establece el punto de acceso en la conexión.",
-        "options":
-        [
-            "A. RTS",
-            "B. Fragment",
-            "C. Tx-power",
-            "D. Retry",
+            "A. SSH",
+            "B. FTP",
+            "C. UDP",
+            "D. VLAN",
             "E. Ninguna es correcta"
         ],
         "answer": 0
     },
     {
-        "question": "La configuración de redes inalámbricas en el Pi se maneja usando una herramienta llamada:",
+        "question": "Es un estándar de comunicaciones utilizado por Raspberry Pi  para comunicarse con el hardware externo a través del puerto GPIO.",
         "options":
         [
-            "A. wpaclient.",
-            "B. wpasupplicant.",
-            "C. ifap.",
-            "D. connect-network.conf",
+            "A. FTP",
+            "B. La interfaz periférica en serie (SPI) ",
+            "C. TCP/IP",
+            "D. GPI",
             "E. Ninguna es correcta"
         ],
         "answer": 1
+    },
+    {
+        "question": "Se refiere al proceso de ejecutar un dispositivo a una velocidad superior a la prevista por sus fabricantes.",
+        "options":
+        [
+            "A. Clocking",
+            "B. Benchmark",
+            "C. Overclocking",
+            "D. DRAM",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Por defecto cuánta memoria está reservada para el uso de la GPU en Raspberry Pi.",
+        "options":
+        [
+            "A. 1GB",
+            "B. 128MB",
+            "C. 512MB",
+            "D. 16MB",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Las radios Wi-Fi (wifi country) pueden transmitir en frecuencias particulares, que se dividen en más pequeñas. Es importante configurar este apartado ya que:",
+        "options":
+        [
+            "A. su uso están regulados y varía de país en país.",
+            "B. No es importante.",
+            "C. Sin el el wifi no funciona.",
+            "D. La conexión por wi-fi se pierda.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
     }
 ]
