@@ -5,6 +5,8 @@ import Questions from './Questions'
 import Result from './Result'
 import ButtonPrimary from '../ButtonPrimary/ButtonPrimary'
 
+import Status from '../Status/Status'
+
 const Quiz = ({ questions, backHome }) => {
 
     // Global Variables
@@ -84,6 +86,12 @@ const Quiz = ({ questions, backHome }) => {
                 {
                     !finishQuiz && 
                     <React.Fragment>
+                        <Status
+                            number_question_current = { currentQuestion + 1 }
+                            total_number_questions = { listQuestions.length }
+                            correct = { correctQuestions }
+                            wrong = { wrongQuestions } 
+                        />
                         <Questions 
                             question = { listQuestions[currentQuestion] }
                             onClick = { HandleCheckAnswer }

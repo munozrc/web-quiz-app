@@ -1,6 +1,9 @@
 import React from 'react'
+import './style.css'
+import CorrectIcon from '../../Images/icons/correct.svg'
+import WrongIcon from '../../Images/icons/wrong.svg'
 
-const Status = ({ number_question_current = 2, total_number_questions = 30, correct = 2, wrong = 0}) => {
+const Status = ({ number_question_current, total_number_questions, correct, wrong }) => {
 
     return (
         <div className="bar-wrapper">
