@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/web-quiz-app/static/css/main.5dd0bfe4.chunk.css",
-    "main.js": "/web-quiz-app/static/js/main.2191d6d4.chunk.js",
-    "main.js.map": "/web-quiz-app/static/js/main.2191d6d4.chunk.js.map",
+    "main.css": "/web-quiz-app/static/css/main.5c695b77.chunk.css",
+    "main.js": "/web-quiz-app/static/js/main.2fba80a8.chunk.js",
+    "main.js.map": "/web-quiz-app/static/js/main.2fba80a8.chunk.js.map",
     "runtime-main.js": "/web-quiz-app/static/js/runtime-main.39b060ef.js",
     "runtime-main.js.map": "/web-quiz-app/static/js/runtime-main.39b060ef.js.map",
-    "static/js/2.e9112bfc.chunk.js": "/web-quiz-app/static/js/2.e9112bfc.chunk.js",
-    "static/js/2.e9112bfc.chunk.js.map": "/web-quiz-app/static/js/2.e9112bfc.chunk.js.map",
+    "static/js/2.02a67181.chunk.js": "/web-quiz-app/static/js/2.02a67181.chunk.js",
+    "static/js/2.02a67181.chunk.js.map": "/web-quiz-app/static/js/2.02a67181.chunk.js.map",
     "index.html": "/web-quiz-app/index.html",
-    "precache-manifest.4c350c11f902e589b8731eb8690d889f.js": "/web-quiz-app/precache-manifest.4c350c11f902e589b8731eb8690d889f.js",
+    "precache-manifest.cf57bb7c154d7e92655fa7df2fb59f28.js": "/web-quiz-app/precache-manifest.cf57bb7c154d7e92655fa7df2fb59f28.js",
     "service-worker.js": "/web-quiz-app/service-worker.js",
-    "static/css/main.5dd0bfe4.chunk.css.map": "/web-quiz-app/static/css/main.5dd0bfe4.chunk.css.map",
-    "static/js/2.e9112bfc.chunk.js.LICENSE.txt": "/web-quiz-app/static/js/2.e9112bfc.chunk.js.LICENSE.txt",
+    "static/css/main.5c695b77.chunk.css.map": "/web-quiz-app/static/css/main.5c695b77.chunk.css.map",
+    "static/js/2.02a67181.chunk.js.LICENSE.txt": "/web-quiz-app/static/js/2.02a67181.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/web-quiz-app/static/media/no-check.ca41c76d.svg",
     "static/media/correct.svg": "/web-quiz-app/static/media/correct.443014aa.svg",
     "static/media/domain.svg": "/web-quiz-app/static/media/domain.ad7df549.svg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.39b060ef.js",
-    "static/js/2.e9112bfc.chunk.js",
-    "static/css/main.5dd0bfe4.chunk.css",
-    "static/js/main.2191d6d4.chunk.js"
+    "static/js/2.02a67181.chunk.js",
+    "static/css/main.5c695b77.chunk.css",
+    "static/js/main.2fba80a8.chunk.js"
   ]
 }
