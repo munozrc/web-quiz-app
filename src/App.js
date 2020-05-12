@@ -20,6 +20,7 @@ import question_p13_redes_01 from './questions/carlos/redes-p13.json'
 import question_p14_redes_01 from './questions/carlos/redes-p14.json'
 import question_p15_redes_01 from './questions/carlos/redes-p15.json'
 import question_p16_redes_01 from './questions/carlos/redes-p16.json'
+import question_p17_redes_01 from './questions/carlos/redes-p17.json'
 
 import question_p12_semiprog_01 from './questions/carlos/semiprog-p12.json'    // SEMIPROG
 import question_p13_semiprog_01 from './questions/carlos/semiprog-p13.json'
@@ -70,13 +71,19 @@ function App() {
           },
           {
             id: 3,
-            text: 'Preguntas #15 (quiz on Tuesday)',
+            text: 'Preguntas #15',
             file: question_p15_redes_01
           },
           {
             id: 4,
-            text: 'Preguntas #16 (quiz on Tuesday)',
+            text: 'Preguntas #16',
             file: question_p16_redes_01
+          }
+          ,
+          {
+            id: 5,
+            text: 'Preguntas #17',
+            file: question_p17_redes_01
           }
         ],
         semiprog: [

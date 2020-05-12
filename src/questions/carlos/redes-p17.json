@@ -1,0 +1,62 @@
+[
+    {
+        "question": "¿Cuantos tipos de tablas por defecto podemos encontrar en iptables?",
+        "options":
+        [
+            "A. filter y nat.",
+            "B. filter, forward y nat.",
+            "C. mangle, filter y nat.",
+            "D. mangle.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "¿Qué tipos de cadena podemos encontrar en la tabla filter?",
+        "options":
+        [
+            "A. INPUT, OUTPUT, MASKING",
+            "B. INPUT, FORWARD",
+            "C. FORWARD, INPUT",
+            "D. OUTPUT, INPUT, FORWARD",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "¿Cuál es la política por defecto que podemos encontrar al iniciar iptables?",
+        "options":
+        [
+            "A. Aceptar algunos paquetes.",
+            "B. Allow all",
+            "C. ACCEPT",
+            "D. DROP",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "La cadena FORWARD es para:",
+        "options":
+        [
+            "A. Paquetes que se reenvían (enrutan) a través del sistema.",
+            "B. Paquetes que llegan a una máquina.",
+            "C. Filtrar por dirección mac.",
+            "D. Análisis del header del paquete.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Una de las advertencias al cambiar las políticas por defecto si estamos conectados de forma remota por SSH es:",
+        "options":
+        [
+            "A. Existe una latencia.",
+            "B. Dejar sin acceso a internet.",
+            "C. Cambiar la dirección de IP.",
+            "D. Perder la conexión por SSH.",
+            "E. Ninguna es correcta"
+        ],
+        "answer": 3
+    }
+]
