@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5167d6079428f89fcaf483faf3d5e9b0",
+    "revision": "4c29250058d8d686104b94c331cbd119",
     "url": "/web-quiz-app/index.html"
   },
   {
-    "revision": "dc02a0abdd0a3fab0613",
+    "revision": "cb3e7c8439a98f76f236",
     "url": "/web-quiz-app/static/css/main.f68ebef9.chunk.css"
   },
   {
-    "revision": "b2030ac268e1c9d9ebc1",
-    "url": "/web-quiz-app/static/js/2.67b449ad.chunk.js"
+    "revision": "6c6612d05df94f6fe9a7",
+    "url": "/web-quiz-app/static/js/2.b49df91e.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/web-quiz-app/static/js/2.67b449ad.chunk.js.LICENSE.txt"
+    "url": "/web-quiz-app/static/js/2.b49df91e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dc02a0abdd0a3fab0613",
-    "url": "/web-quiz-app/static/js/main.f35e6f79.chunk.js"
+    "revision": "cb3e7c8439a98f76f236",
+    "url": "/web-quiz-app/static/js/main.dd1b2063.chunk.js"
   },
   {
-    "revision": "34c03c1b35cfd15b77e2",
-    "url": "/web-quiz-app/static/js/runtime-main.39b060ef.js"
+    "revision": "9c310c0462c316c40e0b",
+    "url": "/web-quiz-app/static/js/runtime-main.eea623f9.js"
   },
   {
     "revision": "8b4d6e74cffa8b09d37d84376cd22e12",
