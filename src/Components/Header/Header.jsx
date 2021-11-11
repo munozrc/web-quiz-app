@@ -9,7 +9,7 @@ const Header = ({ location }) => {
         <React.Fragment>
             <div className="hero-author">
                 <p className="author-name">
-                    by <a href="https://github.com/iamcarlosmunoz" target="_blank" rel="noopener noreferrer" >@iamcarlosmunoz</a>
+                    by <a href="https://github.com/munozrc" target="_blank" rel="noopener noreferrer" >@munozrc</a>
                 </p>
             </div>
 
